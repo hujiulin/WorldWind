@@ -1,0 +1,9 @@
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\bin\Debug\wms_server_list.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\bin\Debug\wms_server_list.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\bin\Debug\Altova.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\bin\Debug\Altova.XML.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\bin\Debug\Altova.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\bin\Debug\Altova.XML.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\obj\Debug\ResolveAssemblyReference.cache
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\obj\Debug\wms_server_list.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\wms_server_list\obj\Debug\wms_server_list.pdb

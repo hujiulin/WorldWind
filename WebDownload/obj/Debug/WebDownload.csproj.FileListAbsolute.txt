@@ -1,0 +1,10 @@
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\bin\Debug\WebDownload.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\bin\Debug\WebDownload.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\bin\Debug\Utilities.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\bin\Debug\Utilities.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\obj\Debug\ResolveAssemblyReference.cache
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\obj\Debug\WorldWind.Net.Monitor.ProgressDetailForm.resources
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\obj\Debug\WorldWind.Net.Monitor.ProgressMonitor.resources
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\obj\Debug\WebDownload.csproj.GenerateResource.Cache
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\obj\Debug\WebDownload.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WebDownload\obj\Debug\WebDownload.pdb

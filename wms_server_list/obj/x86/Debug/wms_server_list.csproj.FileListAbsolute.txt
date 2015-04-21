@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\wms_server_list.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\wms_server_list.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\wms_server_list\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\wms_server_list\obj\x86\Debug\wms_server_list.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\wms_server_list\obj\x86\Debug\wms_server_list.pdb

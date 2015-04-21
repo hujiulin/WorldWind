@@ -1,0 +1,14 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\ConfigurationWizard.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\ConfigurationWizard.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.Wizard.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.WizardPage.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.AtmospherePage.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.CachePage.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.FinalPage.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.ProxyPage.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.WelcomePage.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.Properties.Resources.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.csproj.GenerateResource.Cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\ConfigurationWizard\obj\x86\Debug\ConfigurationWizard.pdb

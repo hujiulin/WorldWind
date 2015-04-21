@@ -1,0 +1,104 @@
+autodetect		Autodetect format from file name extension
+aprs	txt	APRS sentences
+baroiq		Brauniger IQ Series Barograph Download
+cambridge	dat	Cambridge/Winpilot glider software
+cst	cst	CarteSurTable data file
+cetus	pdb	Cetus for Palm/OS
+coastexp		CoastalExplorer XML
+csv	txt	Comma separated values
+compegps		CompeGPS data files (.wpt/.trk/.rte)
+copilot	pdb	CoPilot Flight Planner for Palm/OS
+coto	pdb	cotoGPS for Palm/OS
+axim_gpb	gpb	Dell Axim Navigation System (.gpb) file format
+an1	an1	DeLorme .an1 (drawing) file
+gpl	gpl	DeLorme GPL
+saplus		DeLorme Street Atlas Plus
+saroute	anr	DeLorme Street Atlas Route
+xmap	wpt	DeLorme XMap HH Native .WPT
+xmap2006	txt	DeLorme XMap/SAHH 2006 Native .TXT
+xmapwpt	wpt	DeLorme XMat HH Street Atlas USA .WPT (PPC)
+easygps	loc	EasyGPS binary format
+igc		FAI/IGC Flight Recorder Data Format
+gpssim	gpssim	Franson GPSGate Simulation
+fugawi	txt	Fugawi
+garmin301		Garmin 301 Custom position and heartrate
+glogbook	xml	Garmin Logbook XML
+gdb	gdb	Garmin MapSource - gdb
+mapsource	mps	Garmin MapSource - mps
+garmin_txt	txt	Garmin MapSource - txt (tab delimited)
+pcx	pcx	Garmin PCX5
+garmin_poi		Garmin POI database
+garmin		Garmin serial/USB protocol
+gtrnctr		Garmin Training Centerxml
+geo	loc	Geocaching.com .loc
+gcdb	pdb	GeocachingDB for Palm/OS
+geonet	txt	GEOnet Names Server (GNS)
+geoniche	pdb	GeoNiche .pdb
+kml	kml	Google Earth Markup Language
+google	xml	Google Maps XML
+gpilots	pdb	GpilotS
+gtm	gtm	GPS TrackMaker
+arc	txt	GPSBabel arc filter file
+gpsdrive		GpsDrive Format
+gpsdrivetrack		GpsDrive Format for Tracks
+gpsman		GPSman
+gpspilot	pdb	GPSPilot Tracker for Palm/OS
+gpsutil		gpsutil
+GpsTracker	GPSTrackerSession	GpsTracker Session File
+GpsTracker	TrackAtOnce	GpsTracker TrackAtOnce File
+gpx	gpx	GPX XML format
+hiketech	gps	HikeTech
+holux	wpo	Holux (gm-100) .wpo Format
+hsandv		HSA Endeavour Navigator export File
+html	html	HTML Output
+ignrando	rdn	IGN Rando track files
+ktf2	ktf	Kartex 5 Track File
+kwf2	kwf	Kartex 5 Waypoint File
+psitrex		KuDaTa PsiTrex text
+lowranceusr	usr	Lowrance USR
+maggeo	gs	Magellan Explorist Geocaching
+mapsend		Magellan Mapsend
+magnav	pdb	Magellan NAV Companion for Palm/OS
+magellanx	upt	Magellan SD files (as for eXplorist)
+magellan		Magellan SD files (as for Meridian)
+magellan		Magellan serial protocol
+tef	xml	Map&Guide 'TourExchangeFormat' XML
+mag_pdb	pdb	Map&Guide to Palm/OS exported files (.pdb)
+mapconverter	txt	Mapopolis.com Mapconverter CSV
+mxf	mxf	MapTech Exchange Format
+msroute	axe	Microsoft AutoRoute 2002 (pin/route reader)
+msroute	est	Microsoft Streets and Trips (pin/route reader)
+s_and_t	txt	Microsoft Streets and Trips 2002-2006
+bcr	bcr	Motorrad Routenplaner (Map&Guide) .bcr files
+psp	psp	MS PocketStreets 2002 Pushpin
+nasabaloon	txt	NASA Antarctic Baloon
+tpg	tpg	National Geographic Topo .tpg (waypoints)
+tpo2	tpo	National Geographic Topo 2.x .tpo
+tpo3	tpo	National Geographic Topo 3.x/4.x .tpo
+navicache		Navicache.com XML
+nmn4	rte	Navigon Mobile Navigator .rte files
+dna	dna	Navitrak DNA marker format
+netstumbler		NetStumbler Summary File (text)
+nima		NIMA/GNIS Geographic Names File
+nmea	txt	NMEA GPRMC and GPGGA sentences
+ozi		OziExplorer
+palmdoc	pdb	PalmDoc Output
+pathaway	pdb	PathAway Database for Palm/OS
+quovadis	pdb	Quovadis
+cup	cup	See You flight analysis data
+sportsim	txt	Sportsim track files (part of zipped .ssz files)
+stmsdf	sdf	Suunto Trek Manager (STM) .sdf files
+stmwpp	txt	Suunto Trek Manager (STM) WaypointPlus files
+openoffice		Tab delimited fields useful for OpenOffice, Ploticus etc.
+text	txt	Textual Output
+tomtom	ov2	TomTom POI file
+tmpro	tmpro	TopoMapPro Places File
+dmtlog	trl	TrackLogs digital mapping (.trl)
+tiger		U.S. Census Bureau Tiger Mapping Service
+unicsv		Universal csv with field structure in first line
+vcard	vcf	Vcard Output (for iPod)
+vitosmt	smt	Vito Navigator II tracks
+wfff	xml	WiFiFoFum 2.0 for PocketPC XML
+wbt-bin		Wintec WBT-100/200 Binary file format
+wbt	bin	Wintec WBT-100/200 GPS Download
+yahoo		Yahoo Geocode API data

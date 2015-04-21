@@ -1,0 +1,14 @@
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\x86\Release\LayerSet.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\x86\Release\Altova.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\x86\Release\Altova.XML.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\obj\x86\Release\ResolveAssemblyReference.cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\obj\x86\Release\LayerSet.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\Debug\LayerSet.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\Debug\LayerSet.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.XML.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.XML.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\obj\Debug\ResolveAssemblyReference.cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\obj\Debug\LayerSet.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\LayerSet\obj\Debug\LayerSet.pdb

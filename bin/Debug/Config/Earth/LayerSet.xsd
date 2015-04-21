@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Patrick Hogan (private) -->
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="LayerSet" type="Type_LayerSet" />
+  <xs:complexType name="Type_Vector3">
+    <xs:all>
+      <xs:element name="x" type="xs:double" />
+      <xs:element name="y" type="xs:double" />
+      <xs:element name="z" type="xs:double" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_Orientation">
+    <xs:annotation>
+      <xs:documentation>Units are in degrees</xs:documentation>
+    </xs:annotation>
+    <xs:all>
+      <xs:element name="RotationX" type="xs:float" />
+      <xs:element name="RotationY" type="xs:float" />
+      <xs:element name="RotationZ" type="xs:float" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_WMSAccessor">
+    <xs:all>
+      <xs:element name="Username" type="xs:string" minOccurs="0" />
+      <xs:element name="Password" type="xs:string" minOccurs="0" />
+      <xs:element name="ServerGetMapUrl" type="xs:string" />
+      <xs:element name="ServiceName" type="xs:string" minOccurs="0" />
+      <xs:element name="Version" type="xs:string" />
+      <xs:element name="ImageFormat" type="xs:string" />
+      <xs:element name="WMSLayerName" type="xs:string" />
+      <xs:element name="WMSLayerStyle" type="xs:string" minOccurs="0" />
+      <xs:element name="UseTransparency" type="xs:boolean" />
+      <xs:element name="Opacity" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="255" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="CacheExpirationTime" type="Type_SimpleTimeSpan" minOccurs="0" />
+      <xs:element name="BoundingBoxOverlap" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ServerLogoFilePath" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_LatLonBoundingBox">
+    <xs:all>
+      <xs:element name="North" type="Type_LatitudeCoordinate" />
+      <xs:element name="South" type="Type_LatitudeCoordinate" />
+      <xs:element name="West" type="Type_LongitudeCoordinate" />
+      <xs:element name="East" type="Type_LongitudeCoordinate" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_LatitudeCoordinate">
+    <xs:sequence>
+      <xs:element name="Value">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="-90" />
+            <xs:maxInclusive value="90" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Type_LongitudeCoordinate">
+    <xs:sequence>
+      <xs:element name="Value">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="-180" />
+            <xs:maxInclusive value="180" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Type_RGBColor">
+    <xs:all>
+      <xs:element name="Red">
+        <xs:simpleType>
+          <xs:restriction base="xs:unsignedByte">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="255" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Green">
+        <xs:simpleType>
+          <xs:restriction base="xs:unsignedByte">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="255" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Blue">
+        <xs:simpleType>
+          <xs:restriction base="xs:unsignedByte">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="255" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_DisplayFont">
+    <xs:all>
+      <xs:element name="Family" type="xs:string" />
+      <xs:element name="Size" type="xs:float" />
+      <xs:element name="Style" minOccurs="0">
+        <xs:complexType>
+          <xs:all minOccurs="0">
+            <xs:element name="IsBold" type="xs:boolean" minOccurs="0" />
+            <xs:element name="IsItalic" type="xs:boolean" minOccurs="0" />
+            <xs:element name="IsUnderlined" type="xs:boolean" minOccurs="0" />
+            <xs:element name="IsStrikeout" type="xs:boolean" minOccurs="0" />
+          </xs:all>
+        </xs:complexType>
+      </xs:element>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_LayerSet">
+    <xs:sequence>
+      <!-- allow one instance of ExtendedInformation anywhere inside the layer defs -->
+      <xs:group ref="Layers" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" maxOccurs="1" />
+      <xs:group ref="Layers" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <!-- should really be required, but then need to select between these and redirect+refresh -->
+    <xs:attributeGroup ref="LayerSetAttrs"/>
+    <xs:attribute name="redirect" type="xs:string" use="optional" />
+    <xs:attribute name="Refresh" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:attributeGroup name="LayerSetAttrs">
+    <xs:attribute name="Name" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:minLength value="1" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="ShowOnlyOneLayer" type="xs:boolean" use="optional" />
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="optional" />
+  </xs:attributeGroup>
+
+  <xs:complexType name="Type_PathList">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="DistanceAboveSurface" type="xs:float" />
+      <xs:element name="MinDisplayAltitude">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MaxDisplayAltitude">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="PathsDirectory" type="xs:string" />
+      <xs:element name="RGBColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="WinColorName" type="xs:string" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_ImageLayer">
+    <xs:all>
+      <xs:element name="Name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string" />
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="DistanceAboveSurface" type="xs:double" />
+      <xs:element name="BoundingBox" type="Type_LatLonBoundingBox" />
+      <xs:element name="TexturePath" type="xs:string" />
+      <xs:element name="Opacity">
+        <xs:simpleType>
+          <xs:restriction base="xs:unsignedByte">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="255" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="TerrainMapped" type="xs:boolean" />
+      <xs:element name="TransparencyColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="LegendImagePath" type="xs:string" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+      <xs:element name="TransparentColor" type="Type_RGBColor" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_QuadTileSet">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="Description" type="xs:string" minOccurs="0" />
+      <xs:element name="Effect" type="xs:string" minOccurs="0" />
+      <xs:element name="DistanceAboveSurface" type="xs:double" />
+      <xs:element name="BoundingBox" type="Type_LatLonBoundingBox" />
+      <xs:element name="Opacity" type="xs:integer" minOccurs="0" />
+      <xs:element name="TerrainMapped" type="xs:boolean" />
+      <xs:element name="RenderStruts" type="xs:boolean" minOccurs="0" />
+      <xs:element name="ImageAccessor" type="Type_ImageAccessor" minOccurs="0" />
+      <xs:element name="ImageAccessorList" type="Type_ImageAccessorList" minOccurs="0" />
+      <xs:element name="TransparentMinValue" type="xs:double" minOccurs="0" />
+      <xs:element name="TransparentMaxValue" type="xs:double" minOccurs="0" />
+      <xs:element name="TileDrawDistanceFactor" type="xs:float" minOccurs="0" />
+      <xs:element name="TileSpreadFactor" type="xs:float" minOccurs="0" />
+      <xs:element name="TransparentColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_ImageAccessorList">
+    <xs:sequence>
+      <xs:element name="ImageAccessor" type="Type_ImageAccessor" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Type_Icon">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="Latitude" type="Type_LatitudeCoordinate" />
+      <xs:element name="Longitude" type="Type_LongitudeCoordinate" />
+      <xs:element name="DistanceAboveSurface" type="xs:double" />
+      <xs:element name="MinimumDisplayAltitude" type="xs:decimal" minOccurs="0" />
+      <xs:element name="MaximumDisplayAltitude" type="xs:double" minOccurs="0" />
+      <xs:element name="TextureFilePath" type="xs:string" />
+      <xs:element name="TextureWidthPixels" type="xs:unsignedInt" />
+      <xs:element name="TextureHeightPixels" type="xs:unsignedInt" />
+      <xs:element name="IconWidthPixels" type="xs:unsignedInt" />
+      <xs:element name="IconHeightPixels" type="xs:unsignedInt" />
+      <xs:element name="Caption" type="Type_Caption" minOccurs="0" />
+      <xs:element name="ClickableUrl" type="xs:string" minOccurs="0" />
+      <xs:element name="MouseoverTextColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+      <xs:element name="Description" type="xs:string" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_TiledPlacenameSet">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="DistanceAboveSurface" type="xs:double" />
+      <xs:element name="MinimumDisplayAltitude">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MaximumDisplayAltitude">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="PlacenameListFilePath" type="xs:string" />
+      <xs:element name="DisplayFont" type="Type_DisplayFont" minOccurs="0" />
+      <xs:element name="RGBColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="WinColorName" type="xs:string" minOccurs="0" />
+      <xs:element name="IconFilePath" type="xs:string" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_TiledWFSPlacenameSet">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="DistanceAboveSurface" type="xs:double" />
+      <xs:element name="MinimumDisplayAltitude">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MaximumDisplayAltitude">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="WFSBaseURL" type="xs:string" />
+      <xs:element name="TypeName" type="xs:string" />
+	<xs:element name="LabelField" type="xs:string" />
+      <xs:element name="DisplayFont" type="Type_DisplayFont" minOccurs="0" />
+      <xs:element name="RGBColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="WinColorName" type="xs:string" minOccurs="0" />
+      <xs:element name="IconFilePath" type="xs:string" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_MeshLayer">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="DistanceAboveSurface">
+        <xs:simpleType>
+          <xs:restriction base="xs:float">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="Latitude" type="Type_LatitudeCoordinate" />
+      <xs:element name="Longitude" type="Type_LongitudeCoordinate" />
+      <xs:element name="Orientation" type="Type_Orientation" />
+      <xs:element name="ScaleFactor">
+        <xs:simpleType>
+          <xs:restriction base="xs:float">
+            <xs:minInclusive value="0" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MinViewRange">
+        <xs:simpleType>
+          <xs:restriction base="xs:float">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="180" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MaxViewRange">
+        <xs:simpleType>
+          <xs:restriction base="xs:float">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="180" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="MeshFilePath">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_ScreenOverlay">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="ImageUri" type="xs:string" />
+      <xs:element name="Alignment" type="xs:string" />
+      <xs:element name="StartX" type="xs:integer" />
+      <xs:element name="StartY" type="xs:integer" />
+      <xs:element name="Width" type="xs:integer" />
+      <xs:element name="Height" type="xs:integer" />
+      <xs:element name="Opacity" type="xs:integer" />
+      <xs:element name="ShowHeader" type="xs:boolean" minOccurs="0" />
+      <xs:element name="ClickableUrl" type="xs:string" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:group name="Layers">
+    <xs:choice>
+      <xs:element name="ChildLayerSet" type="Type_LayerSet" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="ImageLayer" type="Type_ImageLayer" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="QuadTileSet" type="Type_QuadTileSet" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="ShapeFileLayer" type="Type_ShapeFileLayer" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="MeshLayer" type="Type_MeshLayer" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="PathList" type="Type_PathList" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="Icon" type="Type_Icon" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="ScreenOverlay" type="Type_ScreenOverlay" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="TiledPlacenameSet" type="Type_TiledPlacenameSet" minOccurs="0" maxOccurs="unbounded" />
+	<xs:element name="TiledWFSPlacenameSet" type="Type_TiledWFSPlacenameSet" minOccurs="0" maxOccurs="unbounded" />
+    </xs:choice>
+  </xs:group>
+  <xs:complexType name="Type_ExtendedInformation">
+    <xs:all>
+      <xs:element name="Abstract" type="xs:string" minOccurs="0" />
+      <xs:element name="ToolBarImage" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_ShapeFileLayer">
+    <xs:all>
+      <xs:element name="Name" type="xs:string" />
+      <xs:element name="DistanceAboveSurface" type="xs:double" />
+      <xs:element name="MasterFilePath" type="xs:string" />
+      <xs:element name="MinimumViewAltitude" type="xs:double" />
+      <xs:element name="MaximumViewAltitude" type="xs:double" />
+      <xs:element name="ShowPoints" type="xs:boolean" minOccurs="0" />
+      <xs:element name="ShowBoundaries" type="xs:boolean" minOccurs="0" />
+      <xs:element name="ShowFilledRegions" type="xs:boolean" minOccurs="0" />
+      <xs:element name="ScalarKey" type="xs:string" minOccurs="0" />
+      <xs:element name="ShowScalarValues" type="xs:boolean" minOccurs="0" />
+      <xs:element name="DisplayFont" type="Type_DisplayFont" minOccurs="0" />
+      <xs:element name="RGBColor" type="Type_RGBColor" minOccurs="0" />
+      <xs:element name="WinColorName" type="xs:string" minOccurs="0" />
+      <xs:element name="ExtendedInformation" type="Type_ExtendedInformation" minOccurs="0" />
+    </xs:all>
+    <xs:attribute name="ShowAtStartup" type="xs:boolean" use="required" />
+  </xs:complexType>
+  <xs:complexType name="Type_ImageAccessor">
+    <xs:all>
+      <xs:element name="CacheDirectory" type="xs:string" minOccurs="0" />
+      <xs:element name="LevelZeroTileSizeDegrees">
+        <xs:simpleType>
+          <xs:restriction base="xs:double">
+            <xs:minExclusive value="0" />
+            <xs:maxInclusive value="180" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="NumberLevels" type="xs:unsignedInt" />
+      <xs:element name="TextureSizePixels" type="xs:unsignedInt" />
+      <xs:element name="ImageFileExtension" type="xs:string" />
+      <!-- ImageAccessor actually requires any one of PermanentDirectory, WMSAccessor or ImageTileService 
+      to be defined, and DuplicateTilePath is only valid if PermanentDirectory is defined. -->
+      <xs:element name="PermanentDirectory" type="xs:string" minOccurs="0" />
+      <xs:element name="PermanantDirectory" type="xs:string" minOccurs="0" />
+      <xs:element name="DuplicateTilePath" type="xs:string" minOccurs="0"/>
+      <xs:element name="WMSAccessor" type="Type_WMSAccessor" minOccurs="0"/>
+      <xs:element name="ImageTileService" type="Type_ImageTileService" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_ImageTileService">
+    <xs:all>
+      <xs:element name="ServerUrl" type="xs:string" />
+      <xs:element name="DataSetName" type="xs:string" />
+      <xs:element name="CacheExpirationTime" type="Type_SimpleTimeSpan" minOccurs="0" />
+      <xs:element name="ServerLogoFilePath" type="xs:string" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_SimpleTimeSpan">
+    <xs:all>
+      <xs:element name="Days" type="xs:unsignedInt" />
+      <xs:element name="Hours" type="xs:integer" />
+      <xs:element name="Mins" type="xs:unsignedInt" />
+      <xs:element name="Seconds" type="xs:unsignedInt" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="Type_Caption">
+    <xs:all>
+      <xs:element name="CaptionText" type="xs:string" />
+      <xs:element name="DisplayFont" type="Type_DisplayFont" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>

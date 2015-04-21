@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="World">
+		<xs:annotation>
+			<xs:documentation>The root element contains WORLD nodes for which worldwindow adds to the list of available worlds</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence minOccurs="0">
+				<xs:element name="TerrainAccessor" type="TerrainAccessor" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="required"/>
+			<xs:attribute name="EquatorialRadius" type="xs:double" use="required"/>
+			<xs:attribute name="LayerDirectory" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DownloadableWMS">
+		<xs:all>
+			<xs:element name="Username" type="xs:string" minOccurs="0"/>
+			<xs:element name="Password" type="xs:string" minOccurs="0"/>
+			<xs:element name="ServerGetMapUrl" type="xs:string"/>
+			<xs:element name="Version" type="xs:string"/>
+			<xs:element name="ImageFormat" type="xs:string"/>
+			<xs:element name="SamplesPerTile" type="xs:unsignedInt"/>
+			<xs:element name="WMSLayerName" type="xs:string"/>
+			<xs:element name="WMSLayerStyle" type="xs:string" minOccurs="0"/>
+			<xs:element name="UseTransparency" type="xs:boolean"/>
+			<xs:element name="BoundingBoxOverlap" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:double">
+						<xs:minInclusive value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ServerLogoFilePath" type="xs:string" minOccurs="0"/>
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="LatLonBoundingBox">
+		<xs:all>
+			<xs:element name="North" type="LatitudeCoordinate"/>
+			<xs:element name="South" type="LatitudeCoordinate"/>
+			<xs:element name="West" type="LongitudeCoordinate"/>
+			<xs:element name="East" type="LongitudeCoordinate"/>
+		</xs:all>
+	</xs:complexType>
+	<xs:complexType name="LatitudeCoordinate">
+		<xs:sequence>
+			<xs:element name="Value">
+				<xs:simpleType>
+					<xs:restriction base="xs:double">
+						<xs:minInclusive value="-90"/>
+						<xs:maxInclusive value="90"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LongitudeCoordinate">
+		<xs:sequence>
+			<xs:element name="Value">
+				<xs:simpleType>
+					<xs:restriction base="xs:double">
+						<xs:minInclusive value="-180"/>
+						<xs:maxInclusive value="180"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TerrainAccessor">
+    <xs:sequence>
+      <!-- messy but it allows arbitrary order of elements. -->
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LatLonBoundingBox" type="LatLonBoundingBox"/>
+        <xs:element name="HigherResolutionSubsets" type="TerrainAccessor"/>
+      </xs:choice>
+      <xs:choice>
+				<xs:element name="TerrainTileService" type="TerrainTileService"/>
+				<xs:element name="DownloadableWMSSet" type="DownloadableWMS"/>
+			</xs:choice>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LatLonBoundingBox" type="LatLonBoundingBox"/>
+        <xs:element name="HigherResolutionSubsets" type="TerrainAccessor"/>
+      </xs:choice>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TerrainTileService">
+		<xs:all>
+			<xs:element name="ServerUrl" type="xs:string"/>
+			<xs:element name="DataSetName" type="xs:string"/>
+			<xs:element name="LevelZeroTileSizeDegrees" type="xs:double"/>
+			<xs:element name="NumberLevels" type="xs:unsignedInt"/>
+			<xs:element name="SamplesPerTile" type="xs:unsignedInt"/>
+			<xs:element name="DataFormat" type="xs:string"/>
+			<xs:element name="FileExtension" type="xs:string"/>
+			<xs:element name="CompressonType" type="xs:string" minOccurs="0"/>
+		</xs:all>
+	</xs:complexType>
+</xs:schema>

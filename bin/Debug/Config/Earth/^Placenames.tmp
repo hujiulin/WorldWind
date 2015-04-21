@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerSet Name="Placenames" ShowOnlyOneLayer="false" ShowAtStartup="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Countries</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>100000</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:countries</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>GeoNet World Capitals</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>3000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_geonet_p_pplc</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Trenches &amp; Ridges</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>100000</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_trenchesridges</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>true</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Cyan</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Deserts &amp; Plains</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>100000</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_desertsplains</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+		<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>true</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Brown</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Lakes &amp; Rivers</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>3000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_lakesrivers</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsItalic>true</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Cyan</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Mountains &amp; Valleys</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>100000</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_mountainsvalleys</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>true</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Brown</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Oceans</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>10000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_oceans</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>12</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>true</IsItalic>
+			</Style>
+		</DisplayFont>
+		<RGBColor>
+			<Red>200</Red>
+			<Green>200</Green>
+			<Blue>200</Blue>
+		</RGBColor>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Continents</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>400000</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>10000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_continents</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>12</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Ivory</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>Water Bodies</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>100000</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_waterbodies</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsItalic>true</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Cyan</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (Population Over 500k)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscitiesover500k</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (Population Over 100k)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>2000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscitiesover100k</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (Population Over 50k)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>1000000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscitiesover50k</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>GeoNET Administrative 1st Order</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>600000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_geonet_a_adm1</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>GeoNET Administrative 2nd Order</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>400000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_geonet_a_adm2</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>GeoNET Populated Place Administrative</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>200000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_geonet_p_ppla</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+			<Style>
+				<IsBold>true</IsBold>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Pink</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (Population Over 10k)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>250000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscitiesover10k</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (Population Over 1k)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>100000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscitiesover1k</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (Population Over 0)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>75000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscitiesover0</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Cities (No Population)</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>25000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_uscities0</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Water Features</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>20000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_us_water</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Cyan</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Terrain Features</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>20000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_us_terrain</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Orange</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>US Anthropogenic Features</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>10000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_us_anthropogenic</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledWFSPlacenameSet>
+	<TiledWFSPlacenameSet ShowAtStartup="true">
+		<Name>GeoNET Populated Place</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>100000</MaximumDisplayAltitude>
+		<WFSBaseURL>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx?</WFSBaseURL>
+		<TypeName>topp:wpl_geonet_p_ppl</TypeName>
+	       	<LabelField>topp:full_name_nd</LabelField>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>Pink</WinColorName>
+	</TiledWFSPlacenameSet>
+	<ExtendedInformation>
+		<ToolBarImage>Data\Icons\Interface\places2.png</ToolBarImage>
+	</ExtendedInformation>
+</LayerSet>

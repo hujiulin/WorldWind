@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerSet Name="Placenames" ShowOnlyOneLayer="false" ShowAtStartup="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Albedo Features</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\albedo\albedo.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Catenae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\catena\catena.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>12</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Cavi</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\cavus\cavus.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Chaos</Name>
+		<DistanceAboveSurface>10</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\chaos\chaos.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Chasmata</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\chasma\chasma.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Colles</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>3000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\colles\colles.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Craters 0km +</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>1500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\crater-0\crater-0.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Craters 10km +</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>2500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\crater-10\crater-10.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>8</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Craters 50km +</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\crater-50\crater-50.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Dorsa</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\dorsum\dorsum.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Fluctus</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\fluctus\fluctus.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Fossae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\fossa\fossa.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Labes</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\labes\labes.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Labyrinthi</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\labyrinthus\labyrinthus.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Lingulae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\lingula\lingula.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Mensae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\mensa\mensa.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Montes</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>6000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\mons\mons.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>12</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Paterae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\patera\patera.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Planitiae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>10000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\planitia\planitia.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>14</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Plana</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>9000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\planum\planum.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>12</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Rupes</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\rupes\rupes.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Scopuli</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\scopulus\scopulus.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Sulci</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>3000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\sulcus\sulcus.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Terrae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>10000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\terra\terra.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>14</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Tholi</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>2000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\tholus\tholus.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Undae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>3000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\undae\undae.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Valles</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\vallis\vallis.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Vastitates</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>10000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Mars\Placenames\vastitas\vastitas.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>14</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<ExtendedInformation>
+		<ToolBarImage>Data\Icons\Interface\places2.png</ToolBarImage>
+	</ExtendedInformation>
+</LayerSet>

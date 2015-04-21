@@ -1,0 +1,12 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\PluginSDK.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\PluginSDK.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\WorldWind.Properties.Resources.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\WorldWind.Menu.LayerManagerItemInfo.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\WorldWind.ShapeFileInfoDlg.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\WorldWind.TimeSetterDialog.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\WorldWind.VisualControl.Colorbar.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\WorldWind.VisualControl.PropertyBrowser.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\PluginSDK.csproj.GenerateResource.Cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\PluginSDK.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\PluginSDK\obj\x86\Debug\PluginSDK.pdb

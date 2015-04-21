@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerSet Name="Images" ShowOnlyOneLayer="false" ShowAtStartup="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<ChildLayerSet Name="MOC 256 (ASU)" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>MOC 256 (ASU) Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/moc256_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>MOC 256 (ASU) Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>moc256</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+				
+	</QuadTileSet>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\moc-geodesy.png</ToolBarImage>
+		</ExtendedInformation>	
+	</ChildLayerSet>
+	<ChildLayerSet Name="MOC 256 Colorized" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<ImageLayer ShowAtStartup="true">
+		<Name>MOC 256 Colorized Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/mocC256_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>MOC 256 Colorized Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>mocC256</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+				
+	</QuadTileSet>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\moc-geodesy-fusion.png</ToolBarImage>
+		</ExtendedInformation>	
+	</ChildLayerSet>
+	<ChildLayerSet Name="MOLA Color (ASU)" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>MOLA Color (ASU) Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/molaColor_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>MOLA Color (ASU) Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>9</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>molaColor</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+					
+	</QuadTileSet>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\mola-asu.png</ToolBarImage>
+		</ExtendedInformation>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Mola Colored (ToMars-JPL)" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Mola Colored (ToMars-JPL) Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/mola128g_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Mola Colored (ToMars-JPL) Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>mola128g</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+				
+	</QuadTileSet>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\mola-jpl.png</ToolBarImage>
+		</ExtendedInformation>	
+	</ChildLayerSet>
+	<ChildLayerSet Name="MDIM (ToMars-JPL-USGS)" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>MDIM (ToMars-JPL-USGS) Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/mdim_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>MDIM (ToMars-JPL-USGS) Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>mars</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>		
+	</QuadTileSet>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\mdim.png</ToolBarImage>
+		</ExtendedInformation>	
+	</ChildLayerSet>
+	<ChildLayerSet Name="Mars THEMIS (ASU)" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Mars THEMIS (ASU) Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/thm_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Mars THEMIS (ASU) Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>11</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>thm</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>	
+	</QuadTileSet>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\themis.png</ToolBarImage>
+		</ExtendedInformation>	
+	</ChildLayerSet>
+	<ChildLayerSet Name="Mars THEMIS Color" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Mars THEMIS Color Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/thmC_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Mars THEMIS Color Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>11</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/mars/mars.aspx</ServerUrl>
+				<DataSetName>thmC</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>			
+	</QuadTileSet>
+	<ExtendedInformation>
+		<ToolBarImage>Data\Icons\Interface\themis-fusion.png</ToolBarImage>
+	</ExtendedInformation>		
+	</ChildLayerSet>
+</LayerSet>

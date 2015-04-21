@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+OnMars.xml
+JPL WMS Planeraty Server Configuration
+ -->
+<LayerSet Name="OnMars WMS" ShowOnlyOneLayer="false" ShowAtStartup="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<QuadTileSet ShowAtStartup="true">
+		<Name>MOC Narrow Angle</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>76</Value>
+			</North>
+			<South>
+				<Value>-76</Value>
+			</South>
+			<West>
+				<Value>-180</Value>
+			</West>
+			<East>
+				<Value>180</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>4.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>7</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<WMSAccessor>
+				<ServerGetMapUrl>http://OnMars.jpl.nasa.gov/wms.cgi</ServerGetMapUrl>
+				<ServiceName>OGC:WMS</ServiceName>
+				<Version>1.1.1</Version>
+				<ImageFormat>image/jpeg</ImageFormat>
+				<WMSLayerName>moc_na</WMSLayerName>
+				<UseTransparency>true</UseTransparency>
+				<ServerLogoFilePath>Data\Icons\Interface\earth-western.png</ServerLogoFilePath>
+			</WMSAccessor>
+		</ImageAccessor>
+		<TransparentMinValue>0</TransparentMinValue>
+		<TransparentMaxValue>5</TransparentMaxValue>
+	</QuadTileSet>
+	<ExtendedInformation>
+		<ToolBarImage>Data\Icons\Interface\earth-western.png</ToolBarImage>
+	</ExtendedInformation>
+</LayerSet>

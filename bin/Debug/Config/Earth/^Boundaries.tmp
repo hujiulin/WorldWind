@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerSet Name="Boundaries" ShowOnlyOneLayer="false" ShowAtStartup="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Country Political Boundaries</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90</Value>
+			</North>
+			<South>
+				<Value>-90</Value>
+			</South>
+			<West>
+				<Value>-180</Value>
+			</West>
+			<East>
+				<Value>180</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>png</ImageFileExtension>
+			<WMSAccessor>
+				<ServerGetMapUrl>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx</ServerGetMapUrl>
+				<ServiceName>OGC:WMS</ServiceName>
+				<Version>1.1.1</Version>
+				<ImageFormat>image/png</ImageFormat>
+				<WMSLayerName><![CDATA[topp:cia&transparent=true]]></WMSLayerName>
+				<UseTransparency>true</UseTransparency>
+			</WMSAccessor>
+		</ImageAccessor>
+		<RenderStruts>false</RenderStruts>
+	</QuadTileSet>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>US State Political Boundaries</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>49.3</Value>
+			</North>
+			<South>
+				<Value>25</Value>
+			</South>
+			<West>
+				<Value>-125</Value>
+			</West>
+			<East>
+				<Value>-66.97</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>9.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>png</ImageFileExtension>
+			<WMSAccessor>
+				<ServerGetMapUrl>http://worldwind25.arc.nasa.gov/geoservercache/geoservercache.aspx</ServerGetMapUrl>
+				<ServiceName>OGC:WMS</ServiceName>
+				<Version>1.1.1</Version>
+				<ImageFormat>image/png</ImageFormat>
+				<WMSLayerName><![CDATA[topp:states&transparent=true]]></WMSLayerName>
+				<UseTransparency>true</UseTransparency>
+			</WMSAccessor>
+		</ImageAccessor>
+		<RenderStruts>false</RenderStruts>
+	</QuadTileSet>
+	<ExtendedInformation>
+		<ToolBarImage>Data\Icons\Interface\borders.png</ToolBarImage>
+	</ExtendedInformation>
+</LayerSet>

@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\LayerSet.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\LayerSet.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\LayerSet\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\LayerSet\obj\x86\Debug\LayerSet.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\LayerSet\obj\x86\Debug\LayerSet.pdb

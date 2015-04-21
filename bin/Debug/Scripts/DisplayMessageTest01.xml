@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script name="Display Message Test 01" repeat="3">
+	<At time="0">
+		<DisplayMessages>
+			<DisplayMessage>
+				<Message>This is number one of two first messages.</Message>
+				<X>0.25</X>
+				<Y>0.25</Y>
+			</DisplayMessage>
+			<DisplayMessage>
+				<Message>This is number two of two first messages.</Message>
+				<X>0.5</X>
+				<Y>0.2</Y>
+			</DisplayMessage>
+		</DisplayMessages>
+	</At>
+	<At time="5">
+		<DisplayMessages>
+			<DisplayMessage>
+				<Message>This is the second message.</Message>
+				<X>0.5</X>
+				<Y>0.5</Y>
+			</DisplayMessage>
+			<DisplayMessage>
+				<Message>This is the second message repeated.</Message>
+				<X>0.5</X>
+				<Y>0.3</Y>
+			</DisplayMessage>
+		</DisplayMessages>
+	</At>
+	<At time="10">
+		<DisplayMessages/>
+	</At>
+	<At time="15">
+		<DisplayMessages>
+			<DisplayMessage>
+				<Message>End of Script!</Message>
+				<X>0.5</X>
+				<Y>0.5</Y>
+			</DisplayMessage>
+		</DisplayMessages>
+	</At>
+	<At time="18">
+		<DisplayMessages/>
+	</At>
+</Script>

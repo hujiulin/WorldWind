@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\Timeline.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\Timeline.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Timeline\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Timeline\obj\x86\Debug\Timeline.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Timeline\obj\x86\Debug\Timeline.pdb

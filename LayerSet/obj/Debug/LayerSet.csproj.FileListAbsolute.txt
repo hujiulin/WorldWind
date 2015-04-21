@@ -1,0 +1,9 @@
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\bin\Debug\LayerSet.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\bin\Debug\LayerSet.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.XML.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\bin\Debug\Altova.XML.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\obj\Debug\ResolveAssemblyReference.cache
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\obj\Debug\LayerSet.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\LayerSet\obj\Debug\LayerSet.pdb

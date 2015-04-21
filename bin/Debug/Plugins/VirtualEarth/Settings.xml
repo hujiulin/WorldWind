@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<VESettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ZoomLevel>3</ZoomLevel>
+  <LayerOn>true</LayerOn>
+  <Terrain>true</Terrain>
+  <Road>true</Road>
+  <Aerial>false</Aerial>
+  <Hybrid>false</Hybrid>
+  <Debug>false</Debug>
+</VESettings>

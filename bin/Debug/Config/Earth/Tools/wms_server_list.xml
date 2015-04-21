@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<WMS_SERVER_LIST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\WorldWind\bin\Debug\Configuration\wms_server_list.xsd">
+	<Server>
+		<Name>Animated Earth</Name>
+		<ServerUrl>http://aes.gsfc.nasa.gov/cgi-bin/wms</ServerUrl>
+		<Version>1.3.0</Version>
+		<Abstract>Animated Earth Visualization Server</Abstract>
+	</Server>
+	<Server>
+		<Name>GLOBE</Name>
+		<ServerUrl>http://viz.globe.gov/viz-bin/wmt.cgi</ServerUrl>
+		<Version>1.1.1</Version>
+		<Abstract>GLOBE Visualization Server</Abstract>
+	</Server>
+</WMS_SERVER_LIST>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="WMS_SERVER_LIST">
+		<xs:annotation>
+			<xs:documentation>List of WMS enabled servers</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Server" type="WMS_server" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="WMS_server">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="ServerUrl" type="xs:string"/>
+			<xs:element name="Version" type="xs:string"/>
+			<xs:element name="UserName" type="xs:string" minOccurs="0"/>
+			<xs:element name="Password" type="xs:string" minOccurs="0"/>
+			<xs:element name="Abstract" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,7 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\WorldWindow.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\WorldWindow.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldWindow\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldWindow\obj\x86\Debug\WorldWind.WorldWindow.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldWindow\obj\x86\Debug\WorldWindow.csproj.GenerateResource.Cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldWindow\obj\x86\Debug\WorldWindow.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldWindow\obj\x86\Debug\WorldWindow.pdb

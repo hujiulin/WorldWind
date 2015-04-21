@@ -1,0 +1,17 @@
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\bin\x86\Release\WebDownload.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\bin\x86\Release\Utilities.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\x86\Release\ResolveAssemblyReference.cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\x86\Release\WorldWind.Net.Monitor.ProgressDetailForm.resources
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\x86\Release\WorldWind.Net.Monitor.ProgressMonitor.resources
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\x86\Release\WebDownload.csproj.GenerateResource.Cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\x86\Release\WebDownload.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\bin\Debug\WebDownload.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\bin\Debug\WebDownload.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\bin\Debug\Utilities.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\bin\Debug\Utilities.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\Debug\ResolveAssemblyReference.cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\Debug\WorldWind.Net.Monitor.ProgressDetailForm.resources
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\Debug\WorldWind.Net.Monitor.ProgressMonitor.resources
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\Debug\WebDownload.csproj.GenerateResource.Cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\Debug\WebDownload.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\WebDownload\obj\Debug\WebDownload.pdb

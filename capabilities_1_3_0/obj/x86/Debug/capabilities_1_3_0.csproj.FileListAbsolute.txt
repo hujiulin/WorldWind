@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\capabilities_1_3_0.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\capabilities_1_3_0.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\capabilities_1_3_0\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\capabilities_1_3_0\obj\x86\Debug\capabilities_1_3_0.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\capabilities_1_3_0\obj\x86\Debug\capabilities_1_3_0.pdb

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerSet Name="Spacecraft Entries and Landings" ShowOnlyOneLayer="false" ShowAtStartup="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+
+<ChildLayerSet Name="Venera" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<Icon ShowAtStartup="true">
+		<Name>Venera 4</Name>
+		<Latitude>
+		<Value>19</Value>
+		</Latitude>
+		<Longitude>
+		<Value>38</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1967-058A</ClickableUrl>
+		<Description>Venera 4, USSR, Launched: 12 Jun 1967, Arrived: 18 Aug 1967, Entry, atmospheric data</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 5</Name>
+		<Latitude>
+		<Value>-3</Value>
+		</Latitude>
+		<Longitude>
+		<Value>18</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1969-001A</ClickableUrl>
+		<Description>Venera 5, USSR, Launched: 5 Jan 1969, Arrived: 16 May 1969, Entry, atmospheric data</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 6</Name>
+		<Latitude>
+		<Value>-5</Value>
+		</Latitude>
+		<Longitude>
+		<Value>23</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1969-002A</ClickableUrl>
+		<Description>Venera 6, USSR, Launched: 10 Jan 1969, Arrived: 17 May 1969, Entry, atmospheric data</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 7</Name>
+		<Latitude>
+		<Value>-5</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-9</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1970-060A</ClickableUrl>
+		<Description>Venera 7, USSR, Launched: 17 Aug 1970, Arrived: 15 Dec 1970, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 8</Name>
+		<Latitude>
+		<Value>-10</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-25</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-021A</ClickableUrl>
+		<Description>Venera 8, USSR, Launched: 27 Mar 1972, Arrived: 22 Jul 1972, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 9</Name>
+		<Latitude>
+		<Value>32</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-69</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-050D</ClickableUrl>
+		<Description>Venera 9, USSR, Launched: 8 Jun 1975, Arrived: 22 Oct 1975, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 10</Name>
+		<Latitude>
+		<Value>16</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-69</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-054D</ClickableUrl>
+		<Description>Venera 10, USSR, Launched: 14 Jun 1975, Arrived: 25 Oct 1975, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 11</Name>
+		<Latitude>
+		<Value>-14</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-61</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-084D</ClickableUrl>
+		<Description>Venera 11, USSR, Launched: 9 Sep 1978, Arrived: 25 Dec 1978, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 12</Name>
+		<Latitude>
+		<Value>-7</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-66</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-086C</ClickableUrl>
+		<Description>Venera 12, USSR, Launched: 14 Sep 1978, Arrived: 21 Dec 1978, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 13</Name>
+		<Latitude>
+		<Value>-7.5</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-57</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-106D</ClickableUrl>
+		<Description>Venera 13, USSR, Launched: 30 Oct 1981, Arrived: 1 Mar 1982, Soft Landing</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Venera 14</Name>
+		<Latitude>
+		<Value>-13.25</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-50</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\venera.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-110D</ClickableUrl>
+		<Description>Venera 14, USSR, Launched: 4 Nov 1981, Arrived: 5 Mar 1982, Soft Landing</Description>
+	</Icon>
+</ChildLayerSet>
+<ChildLayerSet Name="Pioneer Venus" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<Icon ShowAtStartup="true">
+		<Name>Pioneer Venus North Probe</Name>
+		<Latitude>
+		<Value>59.3</Value>
+		</Latitude>
+		<Longitude>
+		<Value>4.8</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\pioneer.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-078E</ClickableUrl>
+		<Description>Pioneer Venus North Probe, USA, Launched: 8 Aug 1978, Arrived: 9 Dec 1978, Entry, atmospheric data</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Pioneer Venus Day Probe</Name>
+		<Latitude>
+		<Value>-31.3</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-43</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\pioneer.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-078G</ClickableUrl>
+		<Description>Pioneer Venus Day Probe, USA, Launched: 8 Aug 1978, Arrived: 9 Dec 1978, Entry, atmospheric data</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Pioneer Venus Night Probe</Name>
+		<Latitude>
+		<Value>-28.7</Value>
+		</Latitude>
+		<Longitude>
+		<Value>56.7</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\pioneer.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-078F</ClickableUrl>
+		<Description>Pioneer Venus Night Probe, USA, Launched: 8 Aug 1978, Arrived: 9 Dec 1978, Entry, atmospheric data</Description>
+	</Icon>
+	<Icon ShowAtStartup="true">
+		<Name>Pioneer Venus Large Probe</Name>
+		<Latitude>
+		<Value>4.4</Value>
+		</Latitude>
+		<Longitude>
+		<Value>-56</Value>
+		</Longitude>
+		<DistanceAboveSurface>100</DistanceAboveSurface>
+		<TextureFilePath>Add-ons\Venus\Data\Icons\pioneer.png</TextureFilePath>
+		<TextureWidthPixels>32</TextureWidthPixels>
+		<TextureHeightPixels>32</TextureHeightPixels>
+		<IconWidthPixels>32</IconWidthPixels>
+		<IconHeightPixels>32</IconHeightPixels>
+		<ClickableUrl>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-078D</ClickableUrl>
+		<Description>Pioneer Venus Large Probe, USA, Launched: 8 Aug 1978, Arrived: 9 Dec 1978, Entry, atmospheric data</Description>
+	</Icon>
+</ChildLayerSet>
+	<ExtendedInformation>
+		<ToolBarImage>Add-ons\Venus\venera_1.png</ToolBarImage>
+	</ExtendedInformation>
+
+</LayerSet>

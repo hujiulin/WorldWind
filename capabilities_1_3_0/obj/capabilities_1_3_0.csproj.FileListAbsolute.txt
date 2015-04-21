@@ -1,0 +1,14 @@
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\x86\Release\capabilities_1_3_0.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\x86\Release\Altova.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\x86\Release\Altova.XML.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\obj\x86\Release\ResolveAssemblyReference.cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\obj\x86\Release\capabilities_1_3_0.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\Debug\capabilities_1_3_0.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\Debug\capabilities_1_3_0.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\Debug\Altova.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\Debug\Altova.XML.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\Debug\Altova.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\bin\Debug\Altova.XML.pdb
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\obj\Debug\ResolveAssemblyReference.cache
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\obj\Debug\capabilities_1_3_0.dll
+F:\实验室\小组工作\GIS\paper\World_Wind_1.4.0_Source\capabilities_1_3_0\obj\Debug\capabilities_1_3_0.pdb

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LayerSet Name="Images" ShowOnlyOneLayer="true" ShowAtStartup="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+
+<ChildLayerSet Name="Magellan Imaging Radar (Color)" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Color Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/VenusBase/venus_magellan_fmap_color.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Color Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>false</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>4</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/venus/venus.aspx</ServerUrl>
+				<DataSetName>fmap-color</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+	</QuadTileSet>
+	<ExtendedInformation>
+		<ToolBarImage>Add-ons\Venus\magellan-color.png</ToolBarImage>
+	</ExtendedInformation>
+</ChildLayerSet>
+
+<ChildLayerSet Name="Magellan Imaging Radar (Grey)" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Grey Base</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/VenusBase/venus_magellan_fmap_grey.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Grey Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>false</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>4</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/venus/venus.aspx</ServerUrl>
+				<DataSetName>fmap-grey</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+	</QuadTileSet>
+	<ExtendedInformation>
+		<ToolBarImage>Add-ons\Venus\magellan-gray.png</ToolBarImage>
+	</ExtendedInformation>
+</ChildLayerSet>
+
+<ChildLayerSet Name="Shaded Relief" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Shaded Relief</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind25.arc.nasa.gov/VenusBase/w001001_2048x1024.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Shaded Relief Tiled</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>false</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>2</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/venus/venus.aspx</ServerUrl>
+				<DataSetName>Topo</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+	</QuadTileSet>
+	<ExtendedInformation>
+		<ToolBarImage>Add-ons\Venus\magellan-shaded.png</ToolBarImage>
+	</ExtendedInformation>
+</ChildLayerSet>
+
+</LayerSet>

@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\WorldXmlDescriptor.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\WorldXmlDescriptor.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldXmlDescriptor\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldXmlDescriptor\obj\x86\Debug\WorldXmlDescriptor.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WorldXmlDescriptor\obj\x86\Debug\WorldXmlDescriptor.pdb

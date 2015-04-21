@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\JhuaplWorldWind.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\JhuaplWorldWind.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\JhuaplWorldWind\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\JhuaplWorldWind\obj\x86\Debug\JhuaplWorldWind.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\JhuaplWorldWind\obj\x86\Debug\JhuaplWorldWind.pdb

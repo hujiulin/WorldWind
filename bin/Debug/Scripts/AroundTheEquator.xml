@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script name="Around the Equator" repeat="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ShortDescription>Fly completely around the world at the equator and at 10,000 meters.</ShortDescription>
+	<At time="0">
+		<ViewDirection>
+			<Angles>
+				<Horizontal>0</Horizontal>
+				<Vertical>90</Vertical>
+			</Angles>
+		</ViewDirection>
+		<ViewPosition>
+			<Latitude>0</Latitude>
+			<Longitude>0</Longitude>
+			<Elevation>9.0e6</Elevation>
+		</ViewPosition>
+	</At>
+	<At time="10">
+		<ViewPosition>
+			<Latitude>50</Latitude>
+			<Longitude>-120</Longitude>
+			<Elevation>5.0e6</Elevation>
+		</ViewPosition>
+	</At>
+	<At time="20">
+		<ViewPosition>
+			<Latitude>-50</Latitude>
+			<Longitude>120</Longitude>
+			<Elevation>9.0e6</Elevation>
+		</ViewPosition>
+	</At>
+	<At time="30">
+		<ViewPosition>
+			<Latitude>0</Latitude>
+			<Longitude>0</Longitude>
+			<Elevation>9.0e6</Elevation>
+		</ViewPosition>
+	</At>
+</Script>

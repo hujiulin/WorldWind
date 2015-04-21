@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project name="WorldWind" default="build">
+    <property name="dotnetdir" value="C:\WINDOWS\Microsoft.NET"/>
+    <fileset id="assembly">
+        <include name="${dotnetdir}\Framework\v1.1.4322"/>
+        <include name="${dotnetdir}\Managed DirectX\v9.05.132"/>
+    </fileset>
+
+    <target name="build">
+        <solution configuration="debug" solutionfile="WorldWind.sln">
+            <assemblyfolders refid="assembly"/>
+        </solution>
+    </target>
+
+    <target name="document" description="Generate documentation.">
+	<ndoc>
+	    <assemblies>
+	        <include name="bin\Debug\*.exe" />
+	        <include name="bin\Debug\*.dll" />
+	    </assemblies>
+	    <summaries>
+	        <include name="bin\Debug\*.xml" />
+	    </summaries>
+	    <documenters>
+	        <documenter name="MSDN">
+	            <property name="OutputDirectory" value="doc\MSDN" />
+	            <property name="HtmlHelpName" value="WorldWind" />
+	            <property name="HtmlHelpCompilerFilename" value="hhc.exe" />
+	            <property name="IncludeFavorites" value="False" />
+	            <property name="Title" value="WorldWind" />
+	            <property name="SplitTOCs" value="False" />
+	            <property name="DefaulTOC" value="" />
+	            <property name="ShowVisualBasic" value="True" />
+	            <property name="ShowMissingSummaries" value="True" />
+	            <property name="ShowMissingRemarks" value="True" />
+	            <property name="ShowMissingParams" value="True" />
+	            <property name="ShowMissingReturns" value="True" />
+	            <property name="ShowMissingValues" value="True" />
+	            <property name="DocumentInternals" value="False" />
+	            <property name="DocumentProtected" value="True" />
+	            <property name="DocumentPrivates" value="False" />
+	            <property name="DocumentEmptyNamespaces" value="False" />
+	            <property name="IncludeAssemblyVersion" value="False" />
+	            <property name="CopyrightText" value="" />
+	            <property name="CopyrightHref" value="" />
+	         </documenter>
+	    </documenters> 
+	</ndoc>
+    </target>    
+</project>

@@ -1,0 +1,4204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<NRL_DataSet_List xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\WorldWind\bin\Debug\Configuration\NRL_Monterey.xsd">
+	<NRL_DataSet Name="Global">
+		<ChildDataSets>
+			<NRL_DataSet Name="Cloud Top Heights">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/cloudtop/</Directory_Url>
+				<Description>Global Cloud Top Heights</Description>
+				<GeographicBoundingBox>
+					<North><Value>75</Value></North>
+					<South><Value>-75</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Blue Marble day and night">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/day_night_bm/</Directory_Url>
+				<Description>Blue Marble day and night</Description>
+				<GeographicBoundingBox>
+					<North><Value>64.87212</Value></North>
+					<South><Value>-65.12525</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="IR">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/ir/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>65</Value></North>
+					<South><Value>-65</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="IR Color">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/ir_color/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>60</Value></North>
+					<South><Value>-60</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Vis Color">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/vis_color/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>60</Value></North>
+					<South><Value>-60</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Water Vapor">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/vapor/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>65</Value></North>
+					<South><Value>-65</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Visible">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/vis/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>65</Value></North>
+					<South><Value>-65</Value></South>
+					<West><Value>-180</Value></West>
+					<East><Value>180</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Land">
+				<ChildDataSets>
+					<NRL_DataSet Name="Soil Moisture">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/soil_moisture/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>90</Value></North>
+							<South><Value>-90</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Surface Type">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/surface_type/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>90</Value></North>
+							<South><Value>-90</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Vegetation Water Content">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/veg_water_content/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>90</Value></North>
+							<South><Value>-90</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="AMSRE">
+						<ChildDataSets>
+							<NRL_DataSet Name="10v-10h">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/amsre/10v-10h/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>70</Value></North>
+									<South><Value>-70</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6v-6h">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/amsre/6v-6h/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>70</Value></North>
+									<South><Value>-70</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="PGR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/amsre/PGR/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>70</Value></North>
+									<South><Value>-70</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="SGR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/land/amsre/sgr/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>70</Value></North>
+									<South><Value>-70</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Rain Accumulations">
+				<ChildDataSets>
+					<NRL_DataSet Name="Geo">
+						<ChildDataSets>
+							<NRL_DataSet Name="2 Week">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/2-week/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/12-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="10 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/10-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="1 Week">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/1-week</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/6-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="5 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/5-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="4 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/4-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="3 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/3-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="2 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/2-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="24 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/24-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/12-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/6-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="3 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/geo/3-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Nogaps">
+						<ChildDataSets>
+							<NRL_DataSet Name="24 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/nogaps/24-hour/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>53.94494</Value></North>
+									<South><Value>24.02399</Value></South>
+									<West><Value>-125.7655</Value></West>
+									<East><Value>-68.06744</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/nogaps/12-hour/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>53.94494</Value></North>
+									<South><Value>24.02399</Value></South>
+									<West><Value>-125.7655</Value></West>
+									<East><Value>-68.06744</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="PMW">
+						<ChildDataSets>
+							<NRL_DataSet Name="2 Week">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/2-week/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/12-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="10 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/10-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="1 Week">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/1-week</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/6-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="5 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/5-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="4 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/4-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="3 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/3-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="2 Day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/2-day</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="24 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/24-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/12-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/6-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="3 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/rain/accumulations/pmw/3-hour</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>60</Value></North>
+									<South><Value>-60</Value></South>
+									<West><Value>-180</Value></West>
+									<East><Value>180</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>				
+			</NRL_DataSet>
+			<NRL_DataSet Name="Model Overlays">
+				<ChildDataSets>
+					<NRL_DataSet Name="1000-500mb Thick">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/model_overlays/1000_500mb_Thick/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>65</Value></North>
+							<South><Value>-65</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="500mb Hieghts">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/model_overlays/500mb_Hghts/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>65</Value></North>
+							<South><Value>-65</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Sea Level Pressure">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/model_overlays/SeaLevPres/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>65</Value></North>
+							<South><Value>-65</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="SFC Temp">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/model_overlays/Sfc_Temp/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>65</Value></North>
+							<South><Value>-65</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="SFC Winds">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/global/stitched/model_overlays/Sfc_Winds/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>65</Value></North>
+							<South><Value>-65</Value></South>
+							<West><Value>-180</Value></West>
+							<East><Value>180</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+		</ChildDataSets>
+	</NRL_DataSet>
+	<NRL_DataSet Name="Atlantic">
+		<ChildDataSets>			
+			<NRL_DataSet Name="Western">
+				<ChildDataSets>
+					<NRL_DataSet Name="Continental US">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>53.94494</Value></North>
+									<South><Value>24.02399</Value></South>
+									<West><Value>-125.7655</Value></West>
+									<East><Value>-68.06744</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate Geo">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/rainrate/geo/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>55</Value></North>
+									<South><Value>20</Value></South>
+									<West><Value>-126</Value></West>
+									<East><Value>-68</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate Pmw">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/rainrate/pmw/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>55</Value></North>
+									<South><Value>20</Value></South>
+									<West><Value>-126</Value></West>
+									<East><Value>-68</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="Geo">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/geo/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Nogaps">
+										<ChildDataSets>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/nogaps/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/nogaps/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="PMW">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/western/conus/accumulations/pmw/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>53.94494</Value></North>
+													<South><Value>24.02399</Value></South>
+													<West><Value>-125.7655</Value></West>
+													<East><Value>-68.06744</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Central America">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>24.86143</Value></North>
+									<South><Value>0.1338749</Value></South>
+									<West><Value>-104.9518</Value></West>
+									<East><Value>-70.01437</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate Geo">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/rainrate/geo/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>24.86143</Value></North>
+									<South><Value>0.1338749</Value></South>
+									<West><Value>-104.9518</Value></West>
+									<East><Value>-70.01437</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate PMW">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/rainrate/PMW/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>24.86143</Value></North>
+									<South><Value>0.1338749</Value></South>
+									<West><Value>-104.9518</Value></West>
+									<East><Value>-70.01437</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="Geo">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Nogaps">
+										<ChildDataSets>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/nogaps/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/nogaps/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="PMW">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>24.86143</Value></North>
+													<South><Value>0.1338749</Value></South>
+													<West><Value>-104.9518</Value></West>
+													<East><Value>-70.01437</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="South America">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/south_america/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>14.84811</Value></North>
+									<South><Value>-55.11677</Value></South>
+									<West><Value>-85.00658</Value></West>
+									<East><Value>-34.9635</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate Geo">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/south_america/rainrate/geo/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>14.84811</Value></North>
+									<South><Value>-55.11677</Value></South>
+									<West><Value>-85.00658</Value></West>
+									<East><Value>-34.9635</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate PMW">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/south_america/rainrate/pmw/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>14.84811</Value></North>
+									<South><Value>-55.11677</Value></South>
+									<West><Value>-85.00658</Value></West>
+									<East><Value>-34.9635</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="Geo">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/geo/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Nogaps">
+										<ChildDataSets>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/nogaps/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/nogaps/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="PMW">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/central_america/accumulations/pmw/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>14.84811</Value></North>
+													<South><Value>-55.11677</Value></South>
+													<West><Value>-85.00658</Value></West>
+													<East><Value>-34.9635</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="US and Central America">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/name/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>38.10399</Value></North>
+									<South><Value>5.3154</Value></South>
+									<West><Value>-103.3468</Value></West>
+									<East><Value>-56.67965</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Water Vapor">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/name/vapor/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>38.10399</Value></North>
+									<South><Value>5.3154</Value></South>
+									<West><Value>-103.3468</Value></West>
+									<East><Value>-56.67965</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Vis">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/name/vis/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>50</Value></North>
+									<South><Value>10</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>-20</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>							
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Tropics">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>42</Value></North>
+									<South><Value>-1</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>0</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>42</Value></North>
+									<South><Value>-1</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>0</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Vis">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/vis/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>42</Value></North>
+									<South><Value>-1</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>0</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="TPW Anomaly">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/tpw_anomaly/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>41</Value></North>
+									<South><Value>0</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>0</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Microvap">
+								<ChildDataSets>
+									<NRL_DataSet Name="Without Model">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/microvap/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>40</Value></North>
+											<South><Value>1.125</Value></South>
+											<West><Value>-98</Value></West>
+											<East><Value>-2</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="With Model">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/microvap_modvap/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>40</Value></North>
+											<South><Value>1.125</Value></South>
+											<West><Value>-98</Value></West>
+											<East><Value>-2</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Microwind">
+								<ChildDataSets>
+									<NRL_DataSet Name="Without Model">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/microwind/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>40</Value></North>
+											<South><Value>1.125</Value></South>
+											<West><Value>-98</Value></West>
+											<East><Value>-2</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="With Microwind Model">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/microwind_modwind/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>40</Value></North>
+											<South><Value>1.125</Value></South>
+											<West><Value>-98</Value></West>
+											<East><Value>-2</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="With Microvap Model">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/microwind_modvap/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>40</Value></North>
+											<South><Value>1.125</Value></South>
+											<West><Value>-98</Value></West>
+											<East><Value>-2</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Vapor">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/vapor/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>41</Value></North>
+									<South><Value>0</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>0</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/rainrate/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>38</Value></North>
+									<South><Value>-2</Value></South>
+									<West><Value>-99</Value></West>
+									<East><Value>-1</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/tropics/accumulations/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>38</Value></North>
+											<South><Value>-2</Value></South>
+											<West><Value>-99</Value></West>
+											<East><Value>-1</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Winds">
+						<ChildDataSets>
+							<NRL_DataSet Name="Low-Level IR Cloud Drift">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/winds/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>48</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>-30</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Shear">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/winds/shear/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>48</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>-30</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Mid-Upper Level">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/winds/vapor/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>48</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>-30</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Visible">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/winds/vis/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>50</Value></North>
+									<South><Value>8</Value></South>
+									<West><Value>-100</Value></West>
+									<East><Value>-38</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Model Overlays">
+						<ChildDataSets>
+							<NRL_DataSet Name="700mb Winds">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/model_overlays/700mb_Winds/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>90</Value></North>
+									<South><Value>0</Value></South>
+									<West><Value>-113.5</Value></West>
+									<East><Value>13.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="500mb Winds">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/model_overlays/500mb_Winds/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>90</Value></North>
+									<South><Value>0</Value></South>
+									<West><Value>-113.5</Value></West>
+									<East><Value>13.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="300mb Winds">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/model_overlays/300mb_Winds/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>90</Value></North>
+									<South><Value>0</Value></South>
+									<West><Value>-113.5</Value></West>
+									<East><Value>13.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Jet Stream">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/model_overlays/Jet_Stream/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>90</Value></North>
+									<South><Value>0</Value></South>
+									<West><Value>-113.5</Value></West>
+									<East><Value>13.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Eastern">
+				<ChildDataSets>
+					<NRL_DataSet Name="Africa">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>39.95707</Value></North>
+									<South><Value>-40.17637</Value></South>
+									<West><Value>-19.8884</Value></West>
+									<East><Value>50.14048</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate GEO">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/rainrate/geo/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>39.95707</Value></North>
+									<South><Value>-40.17637</Value></South>
+									<West><Value>-19.8884</Value></West>
+									<East><Value>50.14048</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate PMW">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/rainrate/pmw/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>39.95707</Value></North>
+									<South><Value>-40.17637</Value></South>
+									<West><Value>-19.8884</Value></West>
+									<East><Value>50.14048</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="Geo">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/geo/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Nogaps">
+										<ChildDataSets>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/nogaps/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/nogaps/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="PMW">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/southern_africa/accumulations/pmw/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>39.95707</Value></North>
+													<South><Value>-40.17637</Value></South>
+													<West><Value>-19.8884</Value></West>
+													<East><Value>50.14048</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Tropics">
+						<ChildDataSets>
+							<NRL_DataSet Name="AOD">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/aod/avhrr_composite/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>10.25</Value></South>
+									<West><Value>-35</Value></West>
+									<East><Value>-15</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Dust Enhance">
+								<ChildDataSets>
+									<NRL_DataSet Name="Modis Composite">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/dust_enhance/modis_composite/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>30</Value></North>
+											<South><Value>10.25</Value></South>
+											<West><Value>-35</Value></West>
+											<East><Value>-15</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Modis Wind Composite">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/dust_enhance/modis_wind_composite/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>30</Value></North>
+											<South><Value>10.25</Value></South>
+											<West><Value>-35</Value></West>
+											<East><Value>-15</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Modis Yello Composite">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/dust_enhance/modis_yellow_composite/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>30</Value></North>
+											<South><Value>10.25</Value></South>
+											<West><Value>-35</Value></West>
+											<East><Value>-15</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Modis Yellow Wind Composite">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/dust_enhance/modis_yellow_wind_composite/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>30</Value></North>
+											<South><Value>10.25</Value></South>
+											<West><Value>-35</Value></West>
+											<East><Value>-15</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="True Color">
+								<ChildDataSets>
+									<NRL_DataSet Name="Modis Composite">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/true_color/modis_composite/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>30</Value></North>
+											<South><Value>10.25</Value></South>
+											<West><Value>-35</Value></West>
+											<East><Value>-15</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Modis Wind Composite">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/true_color/modis_wind_composite/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>30</Value></North>
+											<South><Value>10.25</Value></South>
+											<West><Value>-35</Value></West>
+											<East><Value>-15</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>		
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="AOD">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/atlantic/stitched/aod/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>37</Value></North>
+					<South><Value>-1</Value></South>
+					<West><Value>-100</Value></West>
+					<East><Value>0</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="IR">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/ir/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>41</Value></North>
+					<South><Value>0</Value></South>
+					<West><Value>-65</Value></West>
+					<East><Value>65</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Vis">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/vis/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>41</Value></North>
+					<South><Value>0</Value></South>
+					<West><Value>-65</Value></West>
+					<East><Value>65</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Vapor">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/sahara/vapor/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>41</Value></North>
+					<South><Value>0</Value></South>
+					<West><Value>-65</Value></West>
+					<East><Value>65</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+		</ChildDataSets>
+	</NRL_DataSet>
+	<NRL_DataSet Name="Mediterranean">
+		<ChildDataSets>
+			<NRL_DataSet Name="Europe">
+				<ChildDataSets>
+					<NRL_DataSet Name="IR Color">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/ir_color/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>60</Value></North>
+							<South><Value>25</Value></South>
+							<West><Value>-30</Value></West>
+							<East><Value>40</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Rate">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/rainrate/geo/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>60</Value></North>
+							<South><Value>25</Value></South>
+							<West><Value>-30</Value></West>
+							<East><Value>40</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Accumulations">
+						<ChildDataSets>
+							<NRL_DataSet Name="Geo">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/geo/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Nogaps">
+								<ChildDataSets>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/nogaps/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/nogaps/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="PMW">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/italy/accumulations/pmw/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>60</Value></North>
+											<South><Value>25</Value></South>
+											<West><Value>-30</Value></West>
+											<East><Value>40</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Tropics">
+				<ChildDataSets>
+					<NRL_DataSet Name="IR">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/tropics/ir/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>41</Value></North>
+							<South><Value>0</Value></South>
+							<West><Value>-15</Value></West>
+							<East><Value>65.17975</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Vis">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/tropics/vis/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>41</Value></North>
+							<South><Value>0</Value></South>
+							<West><Value>-15</Value></West>
+							<East><Value>65.17975</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Vapor">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/mediterranean/tropics/vapor/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>41</Value></North>
+							<South><Value>0</Value></South>
+							<West><Value>-15</Value></West>
+							<East><Value>65.17975</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+		</ChildDataSets>
+	</NRL_DataSet>
+	<NRL_DataSet Name="Indian Ocean">
+		<ChildDataSets>
+			<NRL_DataSet Name="South-West Asia">
+				<ChildDataSets>
+					<NRL_DataSet Name="IR Color">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/ir_color/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>55</Value></North>
+							<South><Value>-5</Value></South>
+							<West><Value>10</Value></West>
+							<East><Value>100</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Rate Geo">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/rainrate/geo/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>55</Value></North>
+							<South><Value>-5</Value></South>
+							<West><Value>10</Value></West>
+							<East><Value>100</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Rate PMW">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/rainrate/pmw/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>55</Value></North>
+							<South><Value>-5</Value></South>
+							<West><Value>10</Value></West>
+							<East><Value>100</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Accumulations">
+						<ChildDataSets>
+							<NRL_DataSet Name="Geo">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/geo/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Nogaps">
+								<ChildDataSets>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/nogaps/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/nogaps/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="PMW">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/sw_asia/accumulations/pmw/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>55</Value></North>
+											<South><Value>-5</Value></South>
+											<West><Value>10</Value></West>
+											<East><Value>100</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Tropics">
+				<ChildDataSets>
+					<NRL_DataSet Name="IR">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/ir/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>25</Value></North>
+							<South><Value>-55</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="IR Color">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/ir_color/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Vis">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/vis/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>25</Value></North>
+							<South><Value>-55</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Microvap">
+						<ChildDataSets>
+							<NRL_DataSet Name="Without Model">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/microvap/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>-41.5</Value></South>
+									<West><Value>30</Value></West>
+									<East><Value>120</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="With Vap Model">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/microvap_modvap/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>-41.5</Value></South>
+									<West><Value>30</Value></West>
+									<East><Value>120</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="With Wind Model">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/microvap_modwind/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>-41.5</Value></South>
+									<West><Value>30</Value></West>
+									<East><Value>120</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Microwind">
+						<ChildDataSets>
+							<NRL_DataSet Name="Without Model">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/microwind/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>-41.5</Value></South>
+									<West><Value>30</Value></West>
+									<East><Value>120</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="With Vap Model">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/microwind_modvap/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>-41.5</Value></South>
+									<West><Value>30</Value></West>
+									<East><Value>120</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="With Wind Model">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/microwind_modwind/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>30</Value></North>
+									<South><Value>-41.5</Value></South>
+									<West><Value>30</Value></West>
+									<East><Value>120</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="TPW Anomaly">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/tpw_anomaly/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Vapor">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/vapor/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>25</Value></North>
+							<South><Value>-55</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Rate">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/rainrate/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Rain Accumulations">
+				<ChildDataSets>
+					<NRL_DataSet Name="2 Week">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/2-week/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="12 Days">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/12-days/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="10 Day">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/10-day/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="1 Week">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/1-week/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="6 Day">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/6-day/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="5 Day">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/5-day/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+					</GeographicBoundingBox>
+					</NRL_DataSet>
+						<NRL_DataSet Name="4 Day">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/4-day/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="3 Day">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/3-day/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="2 Day">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/2-day/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="24 Hour">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/24-hour/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="12 Hour">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/12-hour/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="6 Hour">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/6-hour/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="3 Hour">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/southern/accumulations/3-hour/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>30</Value></North>
+							<South><Value>-41.5</Value></South>
+							<West><Value>30</Value></West>
+							<East><Value>120</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Winds Scatt">
+				<Directory_Url>http://www.nrlmry.navy.mil/archdat/indian/winds/scatt/qscatt/</Directory_Url>
+				<GeographicBoundingBox>
+					<North><Value>34</Value></North>
+					<South><Value>-31</Value></South>
+					<West><Value>39</Value></West>
+					<East><Value>111</Value></East>
+				</GeographicBoundingBox>
+			</NRL_DataSet>
+		</ChildDataSets>
+	</NRL_DataSet>
+	<NRL_DataSet Name="Pacific Ocean">
+		<ChildDataSets>
+			<NRL_DataSet Name="Eastern">
+				<ChildDataSets>
+					<NRL_DataSet Name="IR Color">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/ir_color/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>59</Value></North>
+							<South><Value>1</Value></South>
+							<West><Value>170</Value></West>
+							<East><Value>-92</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Rate GEO">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/rainrate/geo/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>59</Value></North>
+							<South><Value>1</Value></South>
+							<West><Value>170</Value></West>
+							<East><Value>-92</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Rate PMW">
+						<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/rainrate/pmw/</Directory_Url>
+						<GeographicBoundingBox>
+							<North><Value>59</Value></North>
+							<South><Value>1</Value></South>
+							<West><Value>170</Value></West>
+							<East><Value>-92</Value></East>
+						</GeographicBoundingBox>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Rain Accumulations">
+						<ChildDataSets>
+							<NRL_DataSet Name="Geo">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/geo/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Nogaps">
+								<ChildDataSets>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/nogaps/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/nogaps/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+							<NRL_DataSet Name="PMW">
+								<ChildDataSets>
+									<NRL_DataSet Name="2 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/2-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Days">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/12-days/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="10 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/10-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="1 Week">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/1-week/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/6-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="5 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/5-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="4 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/4-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/3-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="2 Day">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/2-day/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="24 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/24-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="12 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/12-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="6 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/6-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+									<NRL_DataSet Name="3 Hour">
+										<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/pacus/accumulations/pmw/3-hour/</Directory_Url>
+										<GeographicBoundingBox>
+											<North><Value>59</Value></North>
+											<South><Value>1</Value></South>
+											<West><Value>170</Value></West>
+											<East><Value>-92</Value></East>
+										</GeographicBoundingBox>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Model Overlays">
+						<ChildDataSets>
+							<NRL_DataSet Name="700mb Winds">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/model_overlays/700mb_Winds/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>65</Value></North>
+									<South><Value>-45</Value></South>
+									<West><Value>179</Value></West>
+									<East><Value>-109</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="500mb Winds">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/model_overlays/500mb_Winds/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>65</Value></North>
+									<South><Value>-45</Value></South>
+									<West><Value>179</Value></West>
+									<East><Value>-109</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="300mb Winds">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/model_overlays/300mb_Winds/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>65</Value></North>
+									<South><Value>-45</Value></South>
+									<West><Value>179</Value></West>
+									<East><Value>-109</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Jet_Stream">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/eastern/model_overlays/Jet_Stream/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>65</Value></North>
+									<South><Value>-45</Value></South>
+									<West><Value>179</Value></West>
+									<East><Value>-109</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Winds">
+						<ChildDataSets>
+							<NRL_DataSet Name="Low-Level Cloud Drifts">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/eastern/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>62.40142</Value></North>
+									<South><Value>-3.061919</Value></South>
+									<West><Value>179.7</Value></West>
+									<East><Value>-99.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Shear">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/eastern/shear/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>62.40142</Value></North>
+									<South><Value>-3.061919</Value></South>
+									<West><Value>179.7</Value></West>
+									<East><Value>-99.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Mid-Upper Level">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/eastern/vapor/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>62.40142</Value></North>
+									<South><Value>-3.061919</Value></South>
+									<West><Value>179.7</Value></West>
+									<East><Value>-99.5</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>					
+			<NRL_DataSet Name="Western">
+				<ChildDataSets>
+					<NRL_DataSet Name="Australia">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>0</Value></North>
+									<South><Value>-50</Value></South>
+									<West><Value>100</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate GEO">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/rainrate/geo/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>0</Value></North>
+									<South><Value>-50</Value></South>
+									<West><Value>100</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate PMW">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/rainrate/pmw/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>0</Value></North>
+									<South><Value>-50</Value></South>
+									<West><Value>100</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="Geo">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/geo/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Nogaps">
+										<ChildDataSets>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/nogaps/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/nogaps/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="PMW">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/australia/accumulations/pmw/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>0</Value></North>
+													<South><Value>-50</Value></South>
+													<West><Value>100</Value></West>
+													<East><Value>170</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Korea IR Color">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR Color">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/ir_color/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>50</Value></North>
+									<South><Value>25</Value></South>
+									<West><Value>110</Value></West>
+									<East><Value>145</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate GEO">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/rainrate/geo/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>50</Value></North>
+									<South><Value>25</Value></South>
+									<West><Value>110</Value></West>
+									<East><Value>145</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Rate PMW">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/rainrate/pmw/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>50</Value></North>
+									<South><Value>25</Value></South>
+									<West><Value>110</Value></West>
+									<East><Value>145</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Rain Accumulations">
+								<ChildDataSets>
+									<NRL_DataSet Name="Geo">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/geo/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="Nogaps">
+										<ChildDataSets>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/nogaps/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/nogaps/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+									<NRL_DataSet Name="PMW">
+										<ChildDataSets>
+											<NRL_DataSet Name="2 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/2-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Days">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/12-days/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="10 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/10-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="1 Week">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/1-week/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/6-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="5 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/5-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="4 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/4-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/3-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="2 Day">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/2-day/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="24 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/24-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="12 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/12-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="6 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/6-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+											<NRL_DataSet Name="3 Hour">
+												<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/korea/accumulations/pmw/3-hour/</Directory_Url>
+												<GeographicBoundingBox>
+													<North><Value>50</Value></North>
+													<South><Value>25</Value></South>
+													<West><Value>110</Value></West>
+													<East><Value>145</Value></East>
+												</GeographicBoundingBox>
+											</NRL_DataSet>
+										</ChildDataSets>
+									</NRL_DataSet>
+								</ChildDataSets>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="Tropics Rain Accumulation">
+						<ChildDataSets>
+							<NRL_DataSet Name="2 Week">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/2-week/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/12-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="10 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/10-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="1 Week">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/1-week/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/6-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="5 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/5-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="4 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/4-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="3 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/3-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="2 day">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/2-day/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="24 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/24-Hour/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="12 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/12-Hour/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="6 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/6-Hour/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="3 Hour">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/western/tropics/accumulations/3-Hour/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>44</Value></North>
+									<South><Value>-4</Value></South>
+									<West><Value>70</Value></West>
+									<East><Value>170</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>					
+					<NRL_DataSet Name="Winds">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/western/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>45.1</Value></North>
+									<South><Value>-5.1</Value></South>
+									<West><Value>104</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Vis">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/western/vis/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>45.1</Value></North>
+									<South><Value>-5.1</Value></South>
+									<West><Value>104</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Shear">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/western/shear/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>45.1</Value></North>
+									<South><Value>-5.1</Value></South>
+									<West><Value>104</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Scatt">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/western/scatt/qscatt/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>45.1</Value></North>
+									<South><Value>-5.1</Value></South>
+									<West><Value>104</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Vapor">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/western/vapor/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>45.1</Value></North>
+									<South><Value>-5.1</Value></South>
+									<West><Value>104</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>							
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+			<NRL_DataSet Name="Southern">
+				<ChildDataSets>
+					<NRL_DataSet Name="East">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/southern_hemisphere/east/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>3</Value></North>
+									<South><Value>-49</Value></South>
+									<West><Value>118</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Wind Shear">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/southern_hemisphere/east/shear/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>3</Value></North>
+									<South><Value>-49</Value></South>
+									<West><Value>118</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Vapor">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/southern_hemisphere/east/vapor/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>3</Value></North>
+									<South><Value>-49</Value></South>
+									<West><Value>118</Value></West>
+									<East><Value>-178</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+					<NRL_DataSet Name="West">
+						<ChildDataSets>
+							<NRL_DataSet Name="IR">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/southern_hemisphere/west/ir/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>3</Value></North>
+									<South><Value>-49</Value></South>
+									<West><Value>77</Value></West>
+									<East><Value>140</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+							<NRL_DataSet Name="Wind Shear">
+								<Directory_Url>http://www.nrlmry.navy.mil/archdat/pacific/winds/southern_hemisphere/west/shear/</Directory_Url>
+								<GeographicBoundingBox>
+									<North><Value>3</Value></North>
+									<South><Value>-49</Value></South>
+									<West><Value>77</Value></West>
+									<East><Value>140</Value></East>
+								</GeographicBoundingBox>
+							</NRL_DataSet>
+						</ChildDataSets>
+					</NRL_DataSet>
+				</ChildDataSets>
+			</NRL_DataSet>
+		</ChildDataSets>
+	</NRL_DataSet>
+</NRL_DataSet_List>

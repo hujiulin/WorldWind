@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="NRL_DataSet_List">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="NRL_DataSet" type="NRL_DataSet" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="NRL_DataSet">
+		<xs:choice>
+			<xs:element name="ChildDataSets">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="NRL_DataSet" type="NRL_DataSet" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:sequence>
+				<xs:element name="Directory_Url" type="xs:string"/>
+				<xs:element name="Description" type="xs:string"/>
+				<xs:element name="GeographicBoundingBox" type="GeographicBoundingBox"/>
+				<xs:element name="Directory_Keyword_Filter" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+		</xs:choice>
+		<xs:attribute name="Name" type="xs:string" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="GeographicBoundingBox">
+		<xs:sequence>
+			<xs:element name="North" type="LatitudeCoordinate"/>
+			<xs:element name="South" type="LatitudeCoordinate"/>
+			<xs:element name="West" type="LongitudeCoordinate"/>
+			<xs:element name="East" type="LongitudeCoordinate"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LongitudeCoordinate">
+		<xs:sequence>
+			<xs:element name="Value">
+				<xs:simpleType>
+					<xs:restriction base="xs:double">
+						<xs:minInclusive value="-180"/>
+						<xs:maxInclusive value="180"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LatitudeCoordinate">
+		<xs:sequence>
+			<xs:element name="Value">
+				<xs:simpleType>
+					<xs:restriction base="xs:double">
+						<xs:minInclusive value="-90"/>
+						<xs:maxInclusive value="90"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

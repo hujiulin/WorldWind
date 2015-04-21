@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="imageListGpsIcons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="colorPicker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <metadata name="contextMenuSourceTree.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>266, 17</value>
+  </metadata>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>Select the 'Tracks | Routes | Session" tab to load and display a track type of file.
+This files can be display as a moving icon or the whole track can be shown at once.
+
+Select the 'Waypoints' tab to load and display files containing waypoints information.
+On the 'Waypoints' tab click on the 'Preview Waypoints' to see the list of waypoints in the selected file.
+
+Select the format of the file from the 'File Type' listbox.
+
+The following formats can be automatically selected from their file extension:
+- GpsTracker Session (.GpsTrackerSession)
+- GpsTracker Track At Once (.TrackAtOnce)
+- NMEA GPRMC and GPGGA messages in plain text format (.nmea, .nmeatxt, .nmeatext)
+- APRS messages in plain text (.aprs, .aprstxt, .aprstext)
+- GPX files (.gpx)
+- Google Earth KML files (.kml)
+- Garmin PCX5 files (.pcx)
+- Delorme GPL files (.gpl)
+- Magellan SD Files for eXplorist (.upt)
+- Magellan eXplorist Geocaching files (.gs)
+- Lowrance USR files (.usr)
+
+Enter or browse for a supported file.
+
+Internet downloaded files should start with http://
+
+If reload is set to 0 then the file will be load once and then playback will be repeated every 3 seconds.
+If reload is not 0 then the file will be reload and playback again every 'Reload' seconds.
+
+Set the playback speed slider to playback at real time (whenever possible) or at a faster rate.
+
+Check the 'Maximum Speed' box to go through the messages in the file at full speed.
+
+Select the color of the line when displaying this source Track by clicking on the 'Track Color' button.
+
+Check the 'Track at Once' box to just display the whole track at once, instead of playing back all messages in the file. Preprocessing of the file may be necessary.
+
+Check the 'Force Track at Once Preprocessing' to redo any necessary preprocessing for displaying the Track at Once of the selected file.
+
+In the APRS Filter Tab enter any APRS call signs to use as filter when parsing APRS messages from this source.
+
+Check 'Export as NMEA to File' to save the data from this source to a raw NMEA GPGGA text file under the Path selected in the General Tab and a file name equal the source name with extension .txt
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>Enter the URL of the APRS Internet server to use.
+Or use one of the two predefined ones.
+
+Enter the Call sign filter to get APRS messages from the Internet.
+The Call Sign filter will be appended to the end of the Server URL.
+Leave the Call Sign filter empty to use the URL as entered.
+
+The selected server should output standard raw APRS messages.
+
+Example:
+Server URL: http://db.aprsworld.net/datamart/csv.php?call=
+Call Sign Filer: kb0thn%
+URL : http://db.aprsworld.net/datamart/csv.php?call=kb0thn%
+This will show kb0thn-2, kb0thn-3, etc.
+
+Select the refresh rate in seconds to reload the APRS information from the Internet.
+
+Select the color of the line when displaying this source Track by clicking on the 'Track Color' button.
+
+Check 'Export as NMEA to File' to save the data from this source to a raw NMEA GPGGA text file under the Path selected in the General Tab and a file name equal the source name with extension .txt
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <data name="textBoxUsage.Text" xml:space="preserve">
+    <value>Welcome to GPSTracker for WorldWind.
+
+Developed by Javier Santoro.
+Forum at:
+http://forum.worldwindcentral.com/showthread.php?t=3429&amp;highlight=gpstracker
+Wiki Page at:
+http://www.worldwindcentral.com/wiki/Add-on:GPS_Tracker_(plugin)
+
+To get started please read the following Help text:
+
+Add new GPS sources by right clicking on the type of source to add (COM, TCP, UDP, etc) in the Sources Tree View and selecting add from the context menu.
+When a new source is added its icon is a red square, this means that this source has not been configured yet.
+To configure a source just select it by clicking on it and entering the appropriate values in the Tabbed Panel at the right of the Sources Tree view.
+You will see a Help Tab for each source with instructions on how to setup the selected source.
+Once a Source has been configured, by clicking on the 'Apply' button, its icon will change to the default red circle with a number inside.
+Right clicking on a Source will bring up a context menu that will let you change the Icon of the selected source, rename it, set it as the main source for World Wind to track (World Wind will follow this source) and delete it.
+Source Icons are displayed at their original size. The icon size will remain constant at any zoom level.
+
+Use the General Tab to select some general settings:
+Select 'Track Heading' if you want the World View heading to 'follow' the heading from the GPS data.
+Select '2D Map' (default is not selected) to set the Vertical exaggeration to 0 when GPS Tracker is running, displaying the map in 2D. 
+If '2D Map' is not selected then the selected V. Exaggeration will remain effective while GPS Tracker is running.
+Select 'Information Text' to cause the Information text to be shown in all icons.
+Select 'Track Line' to show the track of the selected GPS icon
+Select 'Record Session' to save into a file the activity of all your GPS devices and POI. If this is selected, when you click 'Track', GPSTracker will save a copy of the activity of all your GPS and POI icons. When you disable GPSTracker a window will pop up asking for the filename you want to select for this session.
+Session files can be played back by selecting them in the 'Files' tab, just as any other file. If a Session file is selected no other device or POI for the list will be shown.
+While a session is being recorded you can add POI but they will not be saved.
+While a session is being played back you can add POI, but they will not be saved.
+In 'NMEA Export Path' select the path where an NMEA GPGGA text version of the data from the selected source will be saved. See the Help in the specific source for more info.
+For GpsTracker to send emails when GeoFence events ocurres it is necessary to fill the email information:
+In the 'Outgoing SMTP server' text box enter your SMTP server address for sending emails. You should be able to see this information on your email client settings.
+In the 'From Email Address' anter the email address to use for sending the email. Again see you email client for this information.
+
+Once all your selections have been made, click on the 'Track' button to start processing all the selected and configured sources.
+On the bottom-right corner you should see the message 'GPSTracker: Fix' if there's at least one GPS fix or 'GPSTracker: No Fix' if there's no GPS fix at all. The message can be turn on and off from the 'GPSTracker\Fix Status' entry under the Layer Manager.
+
+If there is a GPS fix, you should see the selected icon for every GPS source along with information text.
+Clicking on an icon makes GPSTracker 'follow' that device.
+Holding 'Left Control' while clicking on an icon turns the info message on and off.
+If the information text is off it will be visible by rolling the mouse over the icon.
+Holding 'Right Control' while clicking on an icon will toggle the 'Track Heading' function on and off.
+Clicking a GPS Icon while pressing 'Left Alt' will toggle showing the track line for that Icon on and off.
+
+To set a Point Of Interest hold 'Left Shift' and click anywhere in the world.
+Holding 'Right Alt' and clicking on a GPS icon will cause all POI icons to display the distance between the POI and the selected GPS icon.
+Holding 'Right Alt' and clicking on a POI icon will cause all GPS icons to display the distance between the POI and the GPS icon and the bearing from the GPS icon to the selected POI.
+
+All or some of the icons and information text can be turn on and off from the 'GPSTracker' entry under the Layer Manager.
+
+If the GPSTracker Toolbar icon appears selected, it means that GPSTracker is running.
+Click on the GPSTracker Toolbar icon to Disable GPSTracker.
+
+Select the Update Tab to check for updates and to go to the Update page. Click on 'Check for Updates' to check if an update is available. Version information will be displayed.
+Click on 'Go to Update Page' to go to the download page.
+
+Thank you for using GPSTracker for WorldWind.</value>
+  </data>
+  <data name="textBox7.Text" xml:space="preserve">
+    <value>Select the UDP port number to listen for supported messages.
+
+Select the color of the line when displaying this source Track by clicking on the 'Track Color' button.
+
+In the APRS Filter Tab enter any APRS call signs to use as filter when parsing APRS messages from this source.
+
+Check 'Export as NMEA to File' to save the data from this source to a raw NMEA GPGGA text file under the Path selected in the General Tab and a file name equal the source name with extension .txt
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Setup the COM port settings by selecting the appropriate values for:
+Port Number
+Baud Rate
+Data Bits
+Parity
+Stop Bits
+Flow Control
+
+Select the color of the line when displaying this source Track by clicking on the 'Track Color' button.
+
+In the APRS Filter Tab enter any APRS call signs to use as filter when parsing APRS messages from this source.
+
+Check 'Export as NMEA to File' to save the data from this source to a raw NMEA GPGGA text file under the Path selected in the General Tab and a file name equal the source name with extension .txt
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>There are two ways for adding a Point of Interest:
+
+1. Enter the Latitude and Longitude of the Point of Interest in degrees decimal.
+Use Negative Latitude for South and Negative Longitude for West.
+Click on 'Apply' to accept the settings.
+
+2. Right click on the map while holding the left shift key to draw a POI.
+NOTE: For better accuracy while setting a POI, the map should be in 2D mode (Vertical Exaggeration = 0).</value>
+  </data>
+  <data name="textBox6.Text" xml:space="preserve">
+    <value>Enter the IP address and Port number of the GPS server to connect to.
+Note that the GPS server has to be running BEFORE clicking on the 'Track' button. GPSTracker will not try to reconnect to the GPS Server if it's not present.
+
+APRS users can enter the APRS server name and port number to get aprs messages.
+
+Select the color of the line when displaying this source Track by clicking on the 'Track Color' button.
+
+In the APRS Filter Tab enter any APRS call signs to use as filter when parsing APRS messages from this source.
+
+GPSTracker supports the following TCP security protocols: SSL Version 3 and TLS Version 1.
+
+Check 'Export as NMEA to File' to save the data from this source to a raw NMEA GPGGA text file under the Path selected in the General Tab and a file name equal the source name with extension .txt
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Call Sign Filter:
+This filter will be applied to all APRS messages coming in from this source.
+Only messages from the selected call signs will be shown.
+Enter one call sign per line.
+Use * at the end of a call sign as a Wild Card. For example kb0thn* will show kb0thn-2, kb0thn-3, etc.
+An empty filter or a filter with just on entry equal * , will display all call signs from this source.</value>
+  </data>
+  <data name="textBox8.Text" xml:space="preserve">
+    <value>Select your USB device.
+
+Test your USB device by clicking on the 'Test USB Connection' button.
+
+Select the color of the line when displaying this source Track by clicking on the 'Track Color' button.
+
+In the APRS Filter Tab enter any APRS call signs to use as filter when parsing APRS messages from this source.
+
+Check 'Export as NMEA to File' to save the data from this source to a raw NMEA GPGGA text file under the Path selected in the General Tab and a file name equal the source name with extension .txt
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <data name="textBox9.Text" xml:space="preserve">
+    <value>GeoFences are areas on the map that are monitored for Gps sources going in or out of them.
+Actions can be triggered when a source goes in and/or out of a selected GeoFence.
+
+GeoFences can be created in 2 ways:
+
+1. Enter the Latitude and Longitude of all the vertices of the GeoFence in the Geo Fence Vertices Tab by double clicking on an entry.
+An empty entry signal the end of the vertices list.
+
+2. Draw the area directly on the map by clicking on the map while holding the Left Alt key.
+The Area gets closed when clicking back on the first vertice.
+When closed a window will pop up asking setup information for the area. This information is the same one as the data in the Actions Tab.
+NOTE: For better accuracy while drawing the GeoFence, the map should be in 2D mode (Vertical Exaggeration = 0).
+
+Once an area is defined. The Actions tab is used for selecting what actions to perform when a source enters or leaves the area.
+Available actions are:
+. Sending an email. You must enter the email address and fill the email information in the General Tab.
+. Play a sound. Different sound files can be selected for entering and leaving a zone.
+. Show a window. The window will have information about the source: location, name, date and time.
+
+Click on 'Apply' to accept the settings.</value>
+  </data>
+  <metadata name="folderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>438, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
+</root>

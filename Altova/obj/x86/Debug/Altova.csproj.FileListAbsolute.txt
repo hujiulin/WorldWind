@@ -1,0 +1,5 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\Altova.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\Altova.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Altova\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Altova\obj\x86\Debug\Altova.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Altova\obj\x86\Debug\Altova.pdb

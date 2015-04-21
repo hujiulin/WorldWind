@@ -1,0 +1,7 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\Utilities.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\Utilities.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Utilities\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Utilities\obj\x86\Debug\Utility.ErrorDisplay.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Utilities\obj\x86\Debug\Utilities.csproj.GenerateResource.Cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Utilities\obj\x86\Debug\Utilities.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\Utilities\obj\x86\Debug\Utilities.pdb

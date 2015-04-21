@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by Patrick Hogan (private) -->
+<LayerSet Name="Sky" ShowOnlyOneLayer="false" ShowAtStartup="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+
+	<ChildLayerSet Name="Survey Imagery" ShowOnlyOneLayer="false" ShowAtStartup="true">
+		<QuadTileSet ShowAtStartup="true">
+			<Name> Sloan Digital Sky Server</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.</Value>
+				</North>
+				<South>
+					<Value>-90.</Value>
+				</South>
+				<West>
+					<Value>-180.</Value>
+				</West>
+				<East>
+					<Value>180.</Value>
+				</East>
+			</BoundingBox>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>36.</LevelZeroTileSizeDegrees>
+				<NumberLevels>21</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpeg</ImageFileExtension>
+		 	<WMSAccessor>
+		 	  <ServerGetMapUrl>http://nvogre.phyast.pitt.edu/cgi-bin/nvomapserv</ServerGetMapUrl>
+		 	  <ServiceName>WMS</ServiceName>
+		 	  <Version>1.1.1</Version>
+		 	  <ImageFormat>image/jpeg</ImageFormat>
+	 		  <WMSLayerName>sdssimgl0,sdssimgl1,sdssimgl2,sdssimgl3</WMSLayerName>
+	 		  <UseTransparency>true</UseTransparency>
+			  <Opacity>250</Opacity>
+	 		  <ServerLogoFilePath>add-ons\sdss\sdss\sdss.png</ServerLogoFilePath>
+		 	 </WMSAccessor>
+			</ImageAccessor>
+			<ExtendedInformation>
+				<ToolBarImage>add-ons\sdss\sdss\sdss.png</ToolBarImage>
+			</ExtendedInformation>
+		</QuadTileSet>
+
+
+		<QuadTileSet ShowAtStartup="false">
+			<Name> WMAP Image Server</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.</Value>
+				</North>
+				<South>
+					<Value>-90.</Value>
+				</South>
+				<West>
+					<Value>-180.</Value>
+				</West>
+				<East>
+					<Value>180.</Value>
+				</East>
+			</BoundingBox>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>36.</LevelZeroTileSizeDegrees>
+				<NumberLevels>21</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpeg</ImageFileExtension>
+		 	<WMSAccessor>
+		 	  <ServerGetMapUrl>http://nvogre.phyast.pitt.edu/cgi-bin/nvomapserv</ServerGetMapUrl>
+		 	  <ServiceName>WMS</ServiceName>
+		 	  <Version>1.1.1</Version>
+		 	  <ImageFormat>image/jpeg</ImageFormat>
+	 		  <WMSLayerName>wmap0</WMSLayerName>
+	 		  <UseTransparency>true</UseTransparency>
+			  <Opacity>100</Opacity>
+	 		  <ServerLogoFilePath>add-ons\sdss\sdss\blob.png</ServerLogoFilePath>
+		 	 </WMSAccessor>
+			</ImageAccessor>
+			<ExtendedInformation>
+				<ToolBarImage>add-ons\sdss\sdss\blob.png</ToolBarImage>
+			</ExtendedInformation>
+		</QuadTileSet>
+
+	</ChildLayerSet>
+	<ChildLayerSet Name="Footprint Imagery" ShowOnlyOneLayer="false" ShowAtStartup="true">
+		<QuadTileSet ShowAtStartup="false">
+			<Name>SDSS Footprint</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.</Value>
+				</North>
+				<South>
+					<Value>-90.</Value>
+				</South>
+				<West>
+					<Value>-180.</Value>
+				</West>
+				<East>
+					<Value>180.</Value>
+				</East>
+			</BoundingBox>
+      <Opacity>160</Opacity>
+      <TerrainMapped>false</TerrainMapped>
+      <ImageAccessor>
+        <LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+        <NumberLevels>11</NumberLevels>
+        <TextureSizePixels>512</TextureSizePixels>
+        <ImageFileExtension>jpeg</ImageFileExtension>
+        <WMSAccessor>
+          <ServerGetMapUrl>http://nvogre.phyast.pitt.edu/cgi-bin/nvomapserv</ServerGetMapUrl>
+          <ServiceName>WMS</ServiceName>
+          <Version>1.1.1</Version>
+          <ImageFormat>image/jpeg</ImageFormat>
+          <WMSLayerName>sdsslevel0,sdsslevel1,sdsslevel2&amp;TRANSPARENT=true</WMSLayerName>
+          <UseTransparency>true</UseTransparency>
+          <CacheExpirationTime>
+            <Days>0</Days>
+            <Hours>12</Hours>
+            <Mins>0</Mins>
+            <Seconds>0</Seconds>
+          </CacheExpirationTime>
+          <ServerLogoFilePath>add-ons\sdss\sdss\gal-footprint.png</ServerLogoFilePath>
+        </WMSAccessor>
+      </ImageAccessor>
+    <TransparentColor><Red>0</Red><Green>0</Green><Blue>0</Blue></TransparentColor>
+
+			<ExtendedInformation>
+				<ToolBarImage>add-ons\sdss\sdss\gal-footprint.png</ToolBarImage>
+			</ExtendedInformation>
+		</QuadTileSet>
+
+		<QuadTileSet ShowAtStartup="false">
+			<Name> FIRST Footprint</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.</Value>
+				</North>
+				<South>
+					<Value>-90.</Value>
+				</South>
+				<West>
+					<Value>-180.</Value>
+				</West>
+				<East>
+					<Value>180.</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>50</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>11</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpeg</ImageFileExtension>
+		 	<WMSAccessor>
+		 	  <ServerGetMapUrl>http://nvogre.phyast.pitt.edu/cgi-bin/nvomapserv</ServerGetMapUrl>
+		 	  <ServiceName>WMS</ServiceName>
+		 	  <Version>1.1.1</Version>
+		 	  <ImageFormat>image/jpeg</ImageFormat>
+	 		  <WMSLayerName>firstlevel0,firstlevel1</WMSLayerName>
+	 		  <UseTransparency>true</UseTransparency>
+			  <Opacity>50</Opacity>
+	 		  <ServerLogoFilePath>add-ons\sdss\sdss\gal-footprint2.png</ServerLogoFilePath>
+		 	 </WMSAccessor>
+			</ImageAccessor>
+			<ExtendedInformation>
+				<ToolBarImage>add-ons\sdss\sdss\gal-footprint2.png</ToolBarImage>
+			</ExtendedInformation>
+		</QuadTileSet>
+
+	</ChildLayerSet>
+</LayerSet>
+

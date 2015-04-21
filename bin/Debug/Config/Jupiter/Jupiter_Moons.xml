@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2006-03-02 -->
+<!-- Copyright James Whitaker, 2006 -->
+<!-- Contact: pangloss_ww@yahoo.com -->
+<!-- This software may not be modified, reproduced, incorporated into other products or used for commercial purposes in any way without the express written permission of the author.-->
+
+<LayerSet Name="Jupiter's Moons" ShowOnlyOneLayer="true" ShowAtStartup="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+
+<ChildLayerSet Name="Callisto" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<ChildLayerSet Name="Callisto Images" ShowOnlyOneLayer="true" ShowAtStartup="true">
+	<ChildLayerSet Name="Callisto Grayscale" ShowOnlyOneLayer="false" ShowAtStartup="true">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Callisto</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/callisto_bw_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>callisto_bw</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Callisto Placenames" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Catenae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Callisto\Placenames\Catenae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Craters</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Callisto\Placenames\Craters\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Faculae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Callisto\Placenames\Faculae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Large Ringed Features</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Callisto\Placenames\Large_Ringed_Features\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Orange</WinColorName>
+	</TiledPlacenameSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Callisto Geology" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<PathList ShowAtStartup="true">
+		<Name>Asgard inner facies</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\ai</PathsDirectory>
+		<WinColorName>Plum</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Asgard outer facies</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\ao</PathsDirectory>
+		<WinColorName>Mediumorchid</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Valhalla inner facies</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\vi</PathsDirectory>
+		<WinColorName>Lightpink</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Valhalla outer facies</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\vo</PathsDirectory>
+		<WinColorName>Lightcoral</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Craters (Class one)</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\c1</PathsDirectory>
+		<WinColorName>Darkgoldenrod</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Craters (Class two)</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\c2</PathsDirectory>
+		<WinColorName>Darkseagreen</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Craters (Class three)</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\c3</PathsDirectory>
+		<WinColorName>Gold</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Chain craters</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\chain_craters</PathsDirectory>
+		<WinColorName>Gold</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Crater rim</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\crater_rim</PathsDirectory>
+		<WinColorName>Gold</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Crater rim</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\crater_rim</PathsDirectory>
+		<WinColorName>Gold</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Light plains</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\lp</PathsDirectory>
+		<WinColorName>Bisque</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Smooth plains</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\sp</PathsDirectory>
+		<WinColorName>Steelblue</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Ridge crest</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\ridge_crest</PathsDirectory>
+		<WinColorName>Crimson</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Scarp base</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\scarp_base</PathsDirectory>
+		<WinColorName>Maroon</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Troughs</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Callisto\Geology\troughs</PathsDirectory>
+		<WinColorName>Slateblue</WinColorName>
+	</PathList>
+	</ChildLayerSet>
+</ChildLayerSet>
+<ChildLayerSet Name="Europa" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ChildLayerSet Name="Europa Images" ShowOnlyOneLayer="true" ShowAtStartup="true">
+	<ChildLayerSet Name="Europa Grayscale" ShowOnlyOneLayer="false" ShowAtStartup="true">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Base Image</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/europa_bw_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>europa_bw</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Europa Placenames" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Chaos</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Chaos\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Black</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Craters</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Craters\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Flexus</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Flexus\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Crimson</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Large Ringed Features</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Large_Ringed_Features\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Orange</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Linae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Linae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Maculae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Maculae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Plum</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Regiones</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Europa\Placenames\Regiones\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Bisque</WinColorName>
+	</TiledPlacenameSet>
+	</ChildLayerSet>
+</ChildLayerSet>
+<ChildLayerSet Name="Ganymede" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ChildLayerSet Name="Ganymede Images" ShowOnlyOneLayer="true" ShowAtStartup="true">
+	<ChildLayerSet Name="Ganymede Grayscale" ShowOnlyOneLayer="false" ShowAtStartup="false">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Base Image</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/ganymede_bw_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>ganymede_bw</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Ganymede Color" ShowOnlyOneLayer="false" ShowAtStartup="true">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Base Image</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/ganymede_color_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>ganymede_color</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Ganymede Placenames" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Catenae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Ganymede\Placenames\Catenae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Craters</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Ganymede\Placenames\Craters\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Faculae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Ganymede\Placenames\Faculae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Fossae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Ganymede\Placenames\Fossae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Darkslateblue</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Regiones</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Ganymede\Placenames\Regiones\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Bisque</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Sulci</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Ganymede\Placenames\Sulci\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Crimson</WinColorName>
+	</TiledPlacenameSet>
+	</ChildLayerSet>
+</ChildLayerSet>
+<ChildLayerSet Name="Io" ShowOnlyOneLayer="false" ShowAtStartup="false">
+	<ChildLayerSet Name="Io Images" ShowOnlyOneLayer="true" ShowAtStartup="true">
+	<ChildLayerSet Name="Io Grayscale" ShowOnlyOneLayer="false" ShowAtStartup="false">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Base Image</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/io_bw_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>io_bw</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Io Color" ShowOnlyOneLayer="false" ShowAtStartup="false">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Base Image</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/io_color_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>io_color</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Io Color+Grayscale" ShowOnlyOneLayer="false" ShowAtStartup="true">
+		<ImageLayer ShowAtStartup="true">
+			<Name>Base Image</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TexturePath>http://worldwind25.arc.nasa.gov/baseImages/io_color+bw_2048x1024.jpg</TexturePath>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+		</ImageLayer>
+		<QuadTileSet ShowAtStartup="true">
+			<Name>Tiled</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<Opacity>255</Opacity>
+			<TerrainMapped>false</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>45.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>2</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind25.arc.nasa.gov/jupiter/jupiter.aspx</ServerUrl>
+					<DataSetName>io_color_bw</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		</QuadTileSet>
+	</ChildLayerSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Io Placenames" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Catenae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Catenae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Eruptive Centers</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Eruptive_Centers\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Indianred</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Fluctus</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Fluctus\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Gainsboro</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Mensae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Mensae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Montes</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Montes\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Crimson</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Paterae</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Paterae\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Crimson</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Plana</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Plana\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Green</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Regiones</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Regiones\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>true</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Bisque</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Tholi</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Tholi\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Crimson</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Valles</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>150000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Add-ons\Jupiter\Data\Io\Placenames\Valles\0000_0000.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+			<Style>
+				<IsBold>false</IsBold>
+				<IsItalic>false</IsItalic>
+			</Style>
+		</DisplayFont>
+		<WinColorName>Darkslateblue</WinColorName>
+	</TiledPlacenameSet>
+	</ChildLayerSet>
+	<ChildLayerSet Name="Io Geology" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<PathList ShowAtStartup="true">
+		<Name>Cone material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\c</PathsDirectory>
+		<WinColorName>Red</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Undivided flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\f</PathsDirectory>
+		<WinColorName>Goldenrod</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Digitate flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\fd</PathsDirectory>
+		<WinColorName>Darksalmon</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Fissure flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\ff</PathsDirectory>
+		<WinColorName>Indianred</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Hummocky flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\fh</PathsDirectory>
+		<WinColorName>Peachpuff</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Lobate flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\fl</PathsDirectory>
+		<WinColorName>Darkorange</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Patera flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\fp</PathsDirectory>
+		<WinColorName>Olive</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Plains-forming flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\fpf</PathsDirectory>
+		<WinColorName>Khaki</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Shield flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\fs</PathsDirectory>
+		<WinColorName>Palevioletred</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Tholus flow material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\ft</PathsDirectory>
+		<WinColorName>Plum</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Undivided mountain material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\m</PathsDirectory>
+		<WinColorName>Steelblue</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Grooved mountain material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\mg</PathsDirectory>
+		<WinColorName>Slateblue</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Smooth mountain material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\ms</PathsDirectory>
+		<WinColorName>Skyblue</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Interpatera material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\p</PathsDirectory>
+		<WinColorName>Linen</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Patera floor material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\pf</PathsDirectory>
+		<WinColorName>Crimson</WinColorName>
+	</PathList>
+	<PathList ShowAtStartup="true">
+		<Name>Layered plains material</Name>
+		<DistanceAboveSurface>100000</DistanceAboveSurface>
+		<MinDisplayAltitude>0</MinDisplayAltitude>
+		<MaxDisplayAltitude>150000000</MaxDisplayAltitude>
+		<PathsDirectory>Add-ons\Jupiter\Data\Io\Geology\pla</PathsDirectory>
+		<WinColorName>Darkorchid</WinColorName>
+	</PathList>
+	</ChildLayerSet>
+</ChildLayerSet>
+		<ExtendedInformation>
+			<ToolBarImage>Add-Ons\Jupiter\Data\Io_Thumb.png</ToolBarImage>
+		</ExtendedInformation>
+
+</LayerSet>

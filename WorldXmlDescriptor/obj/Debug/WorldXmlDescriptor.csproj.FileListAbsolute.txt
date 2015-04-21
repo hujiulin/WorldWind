@@ -1,0 +1,9 @@
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\bin\Debug\WorldXmlDescriptor.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\bin\Debug\WorldXmlDescriptor.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\bin\Debug\Altova.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\bin\Debug\Altova.XML.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\bin\Debug\Altova.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\bin\Debug\Altova.XML.pdb
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\obj\Debug\ResolveAssemblyReference.cache
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\obj\Debug\WorldXmlDescriptor.dll
+F:\GIS\复件 World_Wind_1.4.0_Source\WorldXmlDescriptor\obj\Debug\WorldXmlDescriptor.pdb

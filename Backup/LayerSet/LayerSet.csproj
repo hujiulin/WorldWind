@@ -1,0 +1,344 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66D4A736-2FE2-C64F-BA20-16B934D3B744}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>LayerSet</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LayerSet</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\AltovaXML\AltovaXML.csproj">
+      <Name>Altova.XML</Name>
+      <Project>{03AAA791-EC2D-4A90-ABBF-45337E52DFD6}</Project>
+      <Package>{5D458EA4-4826-4648-A52F-CF3D0787600F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Altova\Altova.csproj">
+      <Name>Altova</Name>
+      <Project>{D43E6C54-2DF5-454E-9566-DFFE2F3A6946}</Project>
+      <Package>{5D458EA4-4826-4648-A52F-CF3D0787600F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlueType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlueType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BoundingBoxOverlapType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BoundingBoxOverlapType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DistanceAboveSurfaceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DistanceAboveSurfaceType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GreenType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GreenType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LayerSetDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LevelZeroTileSizeDegreesType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxDisplayAltitudeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxDisplayAltitudeType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaximumDisplayAltitudeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaximumDisplayAltitudeType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxViewRangeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaxViewRangeType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MeshFilePathType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MeshFilePathType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinDisplayAltitudeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinDisplayAltitudeType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinimumDisplayAltitudeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinimumDisplayAltitudeType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinViewRangeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MinViewRangeType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NameType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NameType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpacityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RedType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RedType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScaleFactorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScaleFactorType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StyleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StyleType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_Caption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_DisplayFont.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_DisplayFont2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ExtendedInformation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_Icon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ImageAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ImageLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ImageTileService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ImageTileService2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LatitudeCoordinate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LatitudeCoordinate2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LatLonBoundingBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LatLonBoundingBox2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LayerSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LongitudeCoordinate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_LongitudeCoordinate2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_MeshLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_MeshLayer2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_Orientation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_Orientation2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_PathList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_PathList2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_QuadTileSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_QuadTileSet2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_RGBColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_RGBColor2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ShapeFileLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_ShapeFileLayer2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_SimpleTimeSpan.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_SimpleTimeSpan2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_TiledPlacenameSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_TiledPlacenameSet2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_Vector3.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_WMSAccessor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Type_WMSAccessor2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValueType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValueType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValueType3.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValueType4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

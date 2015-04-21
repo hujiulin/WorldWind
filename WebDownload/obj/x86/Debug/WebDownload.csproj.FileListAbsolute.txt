@@ -1,0 +1,8 @@
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\WebDownload.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\bin\Debug\WebDownload.pdb
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WebDownload\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WebDownload\obj\x86\Debug\WorldWind.Net.Monitor.ProgressDetailForm.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WebDownload\obj\x86\Debug\WorldWind.Net.Monitor.ProgressMonitor.resources
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WebDownload\obj\x86\Debug\WebDownload.csproj.GenerateResource.Cache
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WebDownload\obj\x86\Debug\WebDownload.dll
+F:\GIS\World_Wind_1.4.0_Source_VS2008\WebDownload\obj\x86\Debug\WebDownload.pdb

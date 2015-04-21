@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<LayerSet Name="Placenames" ShowOnlyOneLayer="false" ShowAtStartup="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>small craters</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>1000000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\small\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>Yellow</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>big craters</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\big\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>White</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Mare</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\mare\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>Blue</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Catena</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\catena\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>Red</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Dorsum</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\dorsum\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>Green</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Lacus</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\lacus\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>lightblue</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Mons</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\mons\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>Brown</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Ocean</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\ocean\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>darkblue</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Vallis</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\vallis\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>lightgreen</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Apollo landing sitess</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\apollo\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>lightgray</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Palus</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\palus\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>lightblue</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Promontium</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\promontium\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>gold</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Rima</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\rima\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>red</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Sinus</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\sinus\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>green</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Rupes</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\rupes\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>lightgray</WinColorName>
+	</TiledPlacenameSet>
+	<TiledPlacenameSet ShowAtStartup="true">
+		<Name>Planitia</Name>
+		<DistanceAboveSurface>1000</DistanceAboveSurface>
+		<MinimumDisplayAltitude>0</MinimumDisplayAltitude>
+		<MaximumDisplayAltitude>4500000</MaximumDisplayAltitude>
+		<PlacenameListFilePath>Data\Moon\Placenames\planitia\placenames.wpl</PlacenameListFilePath>
+		<DisplayFont>
+			<Family>Arial</Family>
+			<Size>10</Size>
+		</DisplayFont>
+		<WinColorName>white</WinColorName>
+	</TiledPlacenameSet>
+	<ExtendedInformation>
+		<ToolBarImage>Data\Icons\Interface\places2.png</ToolBarImage>
+	</ExtendedInformation>
+</LayerSet>

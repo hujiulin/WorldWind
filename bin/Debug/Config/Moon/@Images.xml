@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by Patrick Hogan (private) -->
+<LayerSet Name="Images" ShowOnlyOneLayer="false" ShowAtStartup="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LayerSet.xsd">
+	<ImageLayer ShowAtStartup="true">
+		<Name>Moon Base Image</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TexturePath>http://worldwind28.arc.nasa.gov/public/moon40xxcolor_base.jpg</TexturePath>
+		<Opacity>255</Opacity>
+		<TerrainMapped>false</TerrainMapped>
+	</ImageLayer>
+	<QuadTileSet ShowAtStartup="true">
+		<Name>Clementine 40xx</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind25.arc.nasa.gov/tile/tile.aspx</ServerUrl>
+				<DataSetName>moon40xxcolor</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\clementine-4000.png</ToolBarImage>
+		</ExtendedInformation>
+	</QuadTileSet>
+	<QuadTileSet ShowAtStartup="false">
+		<Name>Clementine 30xx</Name>
+		<DistanceAboveSurface>0</DistanceAboveSurface>
+		<BoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</BoundingBox>
+		<TerrainMapped>true</TerrainMapped>
+		<ImageAccessor>
+			<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>6</NumberLevels>
+			<TextureSizePixels>512</TextureSizePixels>
+			<ImageFileExtension>jpg</ImageFileExtension>
+			<ImageTileService>
+				<ServerUrl>http://worldwind28.arc.nasa.gov/TestWebApp/WebForm1.aspx</ServerUrl>
+				<DataSetName>clementine30xx</DataSetName>
+				<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+			</ImageTileService>
+		</ImageAccessor>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\clementine-3000.png</ToolBarImage>
+		</ExtendedInformation>
+	</QuadTileSet>
+	<QuadTileSet ShowAtStartup="false">
+			<Name>Shaded Elevation Map</Name>
+			<DistanceAboveSurface>0</DistanceAboveSurface>
+			<BoundingBox>
+				<North>
+					<Value>90.0</Value>
+				</North>
+				<South>
+					<Value>-90.0</Value>
+				</South>
+				<West>
+					<Value>-180.0</Value>
+				</West>
+				<East>
+					<Value>180.0</Value>
+				</East>
+			</BoundingBox>
+			<TerrainMapped>true</TerrainMapped>
+			<ImageAccessor>
+				<LevelZeroTileSizeDegrees>36.0</LevelZeroTileSizeDegrees>
+				<NumberLevels>4</NumberLevels>
+				<TextureSizePixels>512</TextureSizePixels>
+				<ImageFileExtension>jpg</ImageFileExtension>
+				<ImageTileService>
+					<ServerUrl>http://worldwind28.arc.nasa.gov/TestWebApp/WebForm1.aspx</ServerUrl>
+					<DataSetName>moonshadedjpg</DataSetName>
+					<ServerLogoFilePath>Data\Icons\Interface\meatball.png</ServerLogoFilePath>
+				</ImageTileService>
+			</ImageAccessor>
+		<ExtendedInformation>
+			<ToolBarImage>Data\Icons\Interface\clementine-shaded.png</ToolBarImage>
+		</ExtendedInformation>
+	</QuadTileSet>
+	<ScreenOverlay ShowAtStartup="false">
+		<Name>Shaded Elevation Map Legend</Name>
+		<ImageUri>Data\Icons\Interface\lunartopolegend.jpg</ImageUri>
+		<Alignment>Right</Alignment>
+		<StartX>130</StartX>
+		<StartY>60</StartY>
+		<Width>105</Width>
+		<Height>500</Height>
+		<Opacity>255</Opacity>
+		<ShowHeader>false</ShowHeader>
+	</ScreenOverlay>
+</LayerSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!-- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> -->
+<svg width="4cm" height="4cm" viewBox="0 0 64 64"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <desc>Compass Arrow</desc>
+  <polyline fill="none" stroke="green" stroke-width="1" 
+	points="32,32 18,46 30,0 46,46 32,32" />
+  <polyline fill="none" stroke="green" stroke-width="1" 
+	points="26,62 26,44 38,62 38,44" />
+
+</svg>

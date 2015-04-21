@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LayerSet Name="ShapeFile" ShowOnlyOneLayer="false" ShowAtStartup="true">
+	<ShapeFileDescriptor ShowAtStartup="true">
+		<Name>Name</Name>
+		<ShapeFilePath></ShapeFilePath>
+		<LevelZeroTileSize>1.0</LevelZeroTileSize>
+		<MaxAltitude>100000</MaxAltitude>
+		<MinAltitude>10</MinAltitude>
+		<DataKey>name</DataKey>
+		<ScalarMin>1</ScalarMin>
+		<ScalarMax>50</ScalarMax>
+		<NoDataValue>0</NoDataValue>
+		<ShowLabels>true</ShowLabels>
+		<PolygonFill>false</PolygonFill>
+      	 <PolygonFillStyle>Percent05</PolygonFillStyle>
+		<OutlinePolygons>true</OutlinePolygons>
+		<ScaleColorsToData>false</ScaleColorsToData>
+		<LineColor>
+			<Red>50</Red>
+			<Green>150</Green>
+			<Blue>200</Blue>
+		</LineColor>
+		<LineWidth>1.0</LineWidth>
+	</ShapeFileDescriptor>
+	<ShapeFileDescriptor ShowAtStartup="true">
+		<Name>Name</Name>
+		<ShapeFilePath></ShapeFilePath>
+		<LevelZeroTileSize>1.0</LevelZeroTileSize>
+		<MinAltitude>100000</MinAltitude>
+		<DataKey>name</DataKey>
+		<ScalarMin>1</ScalarMin>
+		<ScalarMax>50</ScalarMax>
+		<NoDataValue>0</NoDataValue>
+		<ShowLabels>true</ShowLabels>
+		<PolygonFill>true</PolygonFill>
+		 <PolygonFillStyle>solid</PolygonFillStyle>
+		<OutlinePolygons>true</OutlinePolygons>
+		<ScaleColorsToData>false</ScaleColorsToData>
+		<PolygonColor>
+			<Red>50</Red>
+			<Green>150</Green>
+			<Blue>200</Blue>
+		</PolygonColor>
+		<LineWidth>1.0</LineWidth>
+	</ShapeFileDescriptor>
+	<!--Use universal time in order to avoid timezone offset-->
+	<TimeStamp>
+		<year>2000</year>
+		<month>1</month>
+		<day>1</day>
+		<hour>0</hour>
+		<minute>0</minute>
+	</TimeStamp>
+	<DownloadPage>
+		<URL></URL>
+	</DownloadPage>
+</LayerSet>
+<!--Copyright Carl Menges(Apogee Imaging International)-->

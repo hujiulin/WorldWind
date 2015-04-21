@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlEditor", "HtmlEditor.csproj", "{46B962CC-097B-4E5E-8835-6D89E548ED12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHtmlApp", "..\DemoHtmlApp\DemoHtmlApp.csproj", "{02B46429-BCA8-45AA-B50C-CA91778E72F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B962CC-097B-4E5E-8835-6D89E548ED12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B962CC-097B-4E5E-8835-6D89E548ED12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B962CC-097B-4E5E-8835-6D89E548ED12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B962CC-097B-4E5E-8835-6D89E548ED12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B46429-BCA8-45AA-B50C-CA91778E72F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B46429-BCA8-45AA-B50C-CA91778E72F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B46429-BCA8-45AA-B50C-CA91778E72F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B46429-BCA8-45AA-B50C-CA91778E72F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

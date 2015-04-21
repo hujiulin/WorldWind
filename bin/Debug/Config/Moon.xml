@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<World Name="Moon" EquatorialRadius="1737400" LayerDirectory="Moon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WorldXmlDescriptor.xsd">
+<TerrainAccessor Name="Clementine">
+		<TerrainTileService>
+			<ServerUrl>http://worldwind25.arc.nasa.gov/moon/tile.aspx</ServerUrl>
+			<DataSetName>moontopo</DataSetName>
+			<LevelZeroTileSizeDegrees>20.0</LevelZeroTileSizeDegrees>
+			<NumberLevels>8</NumberLevels>
+			<SamplesPerTile>150</SamplesPerTile>
+			<DataFormat>Int16</DataFormat>
+			<FileExtension>bil</FileExtension>
+			<CompressonType>7z</CompressonType>
+		</TerrainTileService>
+		<LatLonBoundingBox>
+			<North>
+				<Value>90.0</Value>
+			</North>
+			<South>
+				<Value>-90.0</Value>
+			</South>
+			<West>
+				<Value>-180.0</Value>
+			</West>
+			<East>
+				<Value>180.0</Value>
+			</East>
+		</LatLonBoundingBox>
+	</TerrainAccessor>
+</World>

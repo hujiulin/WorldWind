@@ -1,0 +1,8 @@
+Global Clouds servers list
+--------------------------
+http://worldwind25.arc.nasa.gov/GlobalClouds/GlobalClouds.aspx
+http://xplanet.sourceforge.net/clouds/clouds_2048.jpg
+----------------------------
+Any line NOT starting with http:// will be ignored.
+To comment out a server just add any caracter at the beginig of it's line.
+

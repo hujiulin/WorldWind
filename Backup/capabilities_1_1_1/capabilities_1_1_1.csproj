@@ -1,0 +1,248 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD7F0CEC-49A5-3C4F-B757-65355BDFFD8C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>capabilities_1_1_1</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>capabilities_1_1_1</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\AltovaXML\AltovaXML.csproj">
+      <Name>AltovaXML</Name>
+      <Project>{03AAA791-EC2D-4A90-ABBF-45337E52DFD6}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Altova\Altova.csproj">
+      <Name>Altova</Name>
+      <Project>{D43E6C54-2DF5-454E-9566-DFFE2F3A6946}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AttributionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AuthorityURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BoundingBoxType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="capabilities_1_1_1Doc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CapabilityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContactAddressType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContactInformationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContactPersonPrimaryType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DCPTypeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DescribeLayerType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DimensionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExceptionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExtentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FeatureListURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetCapabilitiesType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetFeatureInfoType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetLegendGraphicType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetMapType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetStylesType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HTTPType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IdentifierType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KeywordListType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LatLonBoundingBoxType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LayerType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LegendURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LogoURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MetadataURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OnlineResourceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PostType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PutStylesType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RequestType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScaleHintType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServiceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StyleSheetURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StyleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StyleURLType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserDefinedSymbolizationType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VendorSpecificCapabilitiesType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WMT_MS_CapabilitiesType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
